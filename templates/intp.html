@@ -1,0 +1,115 @@
+{% extends "layout.html"%}
+    
+{% block title %}
+    <title>INTP</title>
+{% endblock %}
+
+{% block style %}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/resultpages.css') }}">
+{% endblock %}
+
+{% block body %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#1">Giới thiệu</a></li>
+            <li><a href="#2">Điểm mạnh, Điểm yếu</a></li>
+            <li><a href="#3">Tình yêu</a></li>
+            <li><a href="#4">Tình bạn</a></li>
+            <li><a href="#5">Tình cảm gia đình</a></li>
+            <li><a href="#6">Con đường sự nghiệp</a></li>
+            <li><a href="#7">Thói quen làm việc</a></li>
+            <li><a href="#8">Tổng kết</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-lg-2 col-md-3 col-sm-3">
+            <!--for something else-->
+        </div>
+        <div class="col-lg-10 col-md-9 col-sm-9 fill">
+            <img class="img-responsive" src="https://storage.googleapis.com/neris/public/images/headers/intp-personality-type-header.png" />
+            <div class="panel-heading">
+                <h1>Nhóm INTP (Nhà khoa học)</h1>
+            </div>
+            <p>Nhà khoa học sáng tạo, với sự thèm khát tri thức.</p>
+            <div class="panel-body">
+                <h2 id="1">Giới thiệu</h2>
+            </div>
+                <blockquote>Học từ ngày hôm qua, sống trong ngày hôm nay, hi vọng vào ngày mai. Điều quan trọng là không được ngừng đặt câu hỏi</blockquote>
+                <p>Nhóm INTP khá hiếm gặp, chỉ khoảng 3%. Với họ không gì vui hơn là việc "không giống ai". INTP tự hào về khả năng phát minh và sáng tạo, một cách nhìn khác biệt và trí tuệ xuất sắc. Người trong nhóm này thường là các triết gia, kiến trúc sư, tiến sỹ, INTP được nhớ tới bởi họ là người nghĩ ra rất nhiều phát minh khoa học trong lịch sử.</p>
+                <h3>Một cuộc sống không đáng sống là cuộc sống không có thử thách</h3>
+                    <blockquote>INTP được biết tới với những học thuyết thông minh và một logic vô địch - trên thực tế, đây là nhóm người logic nhất trong tất cả các nhóm nhân cách.</blockquote>
+                    <p>Họ thích các biểu mẫu, và việc phân biệt sự khác nhau nhỏ nhất giữa mọi thứ khiến việc nói dối họ gần như là không thể. Tuy nhiên lời nói của họ thường bị bỏ qua, vì những người này thường nói những chuyện chưa có kết thúc, chủ yếu là về các học thuyết vẫn đang gây tranh cãi. <br />Điều này làm họ có vẻ thiếu tin cậy, tuy nhiên không có ai nhiệt tình và có khả năng đào sâu tìm hiểu vấn đề để đưa ra giải pháp một cách hữu hiệu hơn INTP - làm ơn đừng chờ đợi những báo cáo của họ. INTP không quan tâm đến khái niệm thời gian, chính vì vậy họ cũng đem hết tiềm năng của mình để sáng tạo và nghiên cứu bất chấp thời gian trong môi trường mà họ được trọng vọng.</p>
+                    <img src="https://www.16personalities.com/images/types/scenes/analysts_Logician_INTP_introduction.png" />
+                <h3>Họ luôn gây ngạc nhiên...</h3>
+                    <p>INTP dường như lúc nào cũng mơ màng, nhưng thực chất là họ không ngừng suy nghĩ. Họ rất thân thiện bên cạnh người thân hoặc những người có chung sở thích, nhưng lại rất nhút nhát nếu ở một nơi hoàn toàn xa lạ, và thái độ thân thiện có thể chuyển hoàn toàn thành tranh đấu nếu đối phương nói ra những điều chỉ trích học thuyết của họ. <br />Khi INTP cảm thấy hứng thú, họ sẽ giải thích cặn kẽ từng bước đi dẫn đến kết luận mới nhất của mình, tuy nhiên, họ thường thay đổi chủ đề trước khi đối phương kịp hiểu họ đang nói gì. <br />INTP rất ghét nghe những người xung quanh nói chuyện về vấn đề tình cảm. Hãy tưởng tượng một cỗ máy vô cùng phức tạp, xử lý tất cả các dữ liệu có thể với một lượng sáng tạo cực lớn để cho ra kết quả logic nhất có thể. Đừng phá hỏng bộ não của họ với cảm xúc của mình.</p>
+                <h3>Hãy để họ bắt đầu trước...</h3>
+                    <p>Vì Tư duy - Thinking (T) là yếu tố chủ đạo của nhóm nhân cách này, INTP dường như không hiểu bất kỳ cảm xúc nào, bạn bè của họ đừng mong họ an ủi khi thấy buồn. INTP sẽ suy nghĩ và đưa ra cách giải quyết, điều không được chờ đón bởi nhóm Cảm xúc - Feeling (F). Những chuyện hàng ngày như bữa nay ăn gì hay chuyện lớn như việc lập gia đình, đều nằm ngoài suy nghĩ của họ. <br />Điều thực sự khiến INTP dậm chân tại chỗ là nỗi lo thất bại, vì tính cách của họ khiến họ cũng đánh giá lại cả học thuyết của bản thân, lo lắng mình đã quên một mảnh ghép, sợ rằng trí tuệ bản thân không nghĩ đủ mọi nơi. Vượt qua nghi ngờ này là thách thức lớn nhất của một INTP, nhưng món quà họ ban tặng cho loài người - dù lớn hay nhỏ - đều đáng để cố gắng.</p>
+            <div class="panel-body">
+                <h2 id="2">Điểm mạnh, Điểm yếu</h2>
+            </div>    
+                <h3>Điểm mạnh:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/analysts_Logician_INTP_strengths.png" />
+                    <ul><li>Phân tích tốt và suy nghĩ tổng hợp</li> <li>Tưởng tượng tốt</li> <li>Tư duy cởi mở</li> <li>Nhiệt tình</li> <li>Có khả năng rút ngắn quá trình</li> <li>Trung thực và thẳng thắn</li></ul>
+                <h3>Điểm yếu:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/analysts_Logician_INTP_weaknesses.png"/>
+                    <ul><li>Luôn thu mình vào cuộc sống cá nhân</li> <li>Không nhạy cảm</li> <li>Người trên sao Hỏa</li> <li>Chán ngấy việc giải thích cho những người xung quanh</li> <li>Ghét các quy tắc và hướng dẫn</li> <li>Chậm trễ và dễ bỏ cuộc</li></ul>
+            <div class="panel-body">
+                <h2 id="3">Tình yêu</h2>
+            </div>
+                <p>INTP thường gây ngạc nhiên thú vị cho người bạn đời của họ. Họ luôn đầy các ý tưởng, chỉ là thiếu cơ hội thực hiện nó. Như mọi thứ, INTP luôn thích chia sẻ với mọi người, và với một người thích hợp, họ hào hứng, nhiệt tình, tán tỉnh nhưng vẫn rất trí tuệ. <br />Nhưng nó không có nghĩa là chuyện tình cảm của INTP dễ dàng, họ nhút nhát và dễ rút lui, sợ ra ngoài gặp gỡ, sợ bị từ chối, sợ bị chú ý. Họ giống miếng bọt biển để thấm nước, đừng bắt họ phải bước bước đầu tiên.</p>
+                <h3>Gia đình! Người vợ tốt tạo ra niềm vui, còn người vợ tồi tạo ra một triết gia...</h3>
+                    <p>Ngay từ đầu, INTP đã rất nghiêm túc, vì họ sợ phải kiếm tìm một người khác. Họ trung thành, thẳng thắn một cách bất ngờ, vì họ luôn tin tưởng chỉ có sự chia sẻ mới giúp một cặp đôi tránh mâu thuẫn và hiểu nhầm. <br />Khi quen nhau đã lâu, nhu cầu của họ vẫn rất đơn giản, quà tặng, sự ngạc nhiên, sự lãng mạn và những buổi hẹn hò đều không có trong từ điển của họ. Đây cũng là một yếu điểm, mà đối phương cần rất bao dung. Nhưng tính cách phân tích vẫn là điểm yếu khiến họ rất kém trong việc chia sẻ các cảm xúc tiêu cực của đối phương.</p>
+                    <img src="https://www.16personalities.com/images/types/scenes/analysts_Logician_INTP_romantic_relationships.png" />
+                    <p><blockquote>Khi cãi vã xảy ra, INTP thường bỏ qua cảm xúc của mình cũng như của đối phương.</blockquote>Sau cuộc cãi vã, INTP luôn cố tìm giải pháp. Nhưng điều này thường là vô ích trong một phạm trù phi logic. Và cả những vấn đề logic hơn, người họ yêu không đủ thỏa mãn với cá tính của họ. INTP cần lưu ý việc này, hãy cố để ý cảm xúc của đối phương, cho dù theo một cách vụng về...</p>
+                <h3>Cuộc sống bận rộn khiến họ trở nên khô khan</h3>
+                    <p>INTP sống khá khắc khổ, tất cả vì mục tiêu giải phóng năng lượng tinh thần của họ cho những điều quan trọng hơn. Sự sáng tạo và trí tưởng tượng giúp họ biến thành một đối tác lãng mạn, nhiệt tình và nồng cháy. Mặc dù ít nói, họ luôn là những người có nội tâm phong phú. <br />Nhìn chung, các mối quan hệ với INTP có kết quả tốt, nhất là với các đối tác cùng nhóm Cảm giác - Intuitive (N), nếu không, ít nhất xin bạn hãy hiểu là họ rất cần khoảng thời gian riêng.</p>
+            <div class="panel-body">
+                <h2 id="4">Tình bạn</h2>
+            </div>
+                <p>Rất khó kết bạn với nhóm này, vì họ vừa quá thông minh lại vừa rụt rè nhút nhát. Tuy nhiên, các tình bạn từ chung một mối quan tâm sẽ là tình bạn tức thì và khăng khít.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Logician_INTP_friendships.png" />
+                <h3>Đừng nóng vội</h3>
+                    <p>Các mối quan hệ của INTP đều dựa trên nền tảng tri thức, dựa vào việc trao đổi các ý tưởng, lý thuyết và khái niệm. Những người không theo kịp trí tuệ của họ, hoặc những người có thị hiếu khác sẽ khó tiếp cận với họ. INTP không thích thế giới truyền thông, mà chỉ thích một chủ đề nào đó có ý nghĩa.<blockquote>Rất ít người đủ kiên nhẫn vượt qua lớp vỏ bọc của họ, tuy nhiên, INTP lại là những người bạn rất tốt.</blockquote>Những người thuộc nhóm Phân tích rất hợp với INTP, vì họ cùng có sở thích giống nhau. INTP rất đáng tin và sẵn sàng giúp đỡ người khác với. Tuy nhiên, đừng xin lời khuyên của họ nếu vấn đề của bạn liên quan đến chuyện tình cảm. <br />Họ không phải vô cảm, họ rất giàu cảm xúc, chỉ là phần Xúc cảm - Feeling (F) là tính cách họ ít phát triển nhất, làm cho họ luôn bộc phát nó ra một cách thô bạo. ITNP rất cần có một bác sĩ tâm lý riêng.</p>
+                <h3>... Họ là một người bạn tâm giao</h3>
+                    <p>INTP luôn giúp đỡ bạn bè một cách rõ ràng và đáng tin cậy, ngay cả trong những vấn đề họ không nghiên cứu đến. Bạn bè của họ không phải lo về những trò chơi tình cảm, vì INTP thích trí tuệ chứ không phải chuyện đó. Tình bạn với một INTP là xứng đáng với nỗ lực vượt qua vỏ bọc bên ngoài của họ.</p>
+            <div class="panel-body">
+                <h2 id="5">Tình cảm gia đình</h2>
+            </div>    
+                <p>Vai trò làm cha làm mẹ là một thách thức đối với nhóm người này, không phải kiểu người nhạy cảm, INTP cố gắng đọc hết những gì người khác viết về trẻ nhỏ, và chịu trận tới lúc chúng trưởng thành và phát triển tính tự chủ và tư duy logic. <br />Họ rất tận tâm, không phải giúp đỡ con mình theo cách hỗ trợ cảm xúc thông thường, mà là khuyến khích trẻ suy nghĩ hành động độc lập, tìm tòi khám phá và nói lên tiếng nói của chính chúng.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Logician_INTP_parenthood.png" />
+                <p>Đối với họ, tri thức là chìa khóa mở mọi cánh cổng, và họ cố hết sức khiến con của họ có sự tự do cần thiết và đủ nhẫn nại với tri thức. Các bậc phụ huynh INTP thường khá thoải mái với con mình, cho phép chúng khám phá thế giới xung quanh.<blockquote>INTP không thích kiểm soát người khác, họ thích để con cái tự hỏi "Tại sao?" và tự logic để trả lời câu hỏi đó.</blockquote>INTP không đòi hỏi con mình đi theo con đường truyền thống nhà trường > công sở > hôn nhân > nhà ở > con cái > nghỉ hưu. Nhưng họ lại đòi hỏi con cái họ về tư duy và trí tuệ - Họ muốn con họ tự tìm ra con đường tốt nhất, nhiều khi nó khiến trẻ nản lòng. Tuy nhiên, INTP vẫn luôn bên cạnh giúp đỡ con cái họ. <br />Trong lúc là người thầy/ người cô thông thái, họ đồng thời là bác sỹ tâm lý tồi, nhất là lúc trẻ ở tuổi vị thành niên. Hãy thông cảm và hiểu những giọt nước mắt, đừng cố đề xuất giải pháp hợp lý INTP nhé!</p>
+                <h3>Không chỉ là tồn tại, hãy thực sự sống.</h3>
+                    <p>INTP muốn con họ lớn lên thông minh, độc lập, khoan dung, nhưng để đạt được điều đó đòi hỏi sự nỗ lực lớn ở trẻ. Phong cách làm cha làm mẹ của INTP tạo sự tự do cho trẻ, nhưng cũng đi kèm với trách nhiệm của cha mẹ là phải đảm bảo tính xây dựng. Mặc dù đây là một thách thức với họ, nhưng nếu được họ dạy dỗ tốt, con cái của INTP sẽ lớn lên tự tin, độc lập, biết đặt câu hỏi và sử dụng trí não của chính mình.</p>
+            <div class="panel-body">
+                <h2 id="6">Con đường sự nghiệp</h2>
+            </div>    
+                <p>INTP tương đối dị biệt - làm họ khó ở trong vị trí lãnh đạo, vì nó được dành cho các cá tính hoàn toàn khác. INTP luôn phải đi tìm một công việc thỏa mãn tính cách, nhưng những cống hiến của họ sẽ luôn được nhớ tới. Đừng đưa cho họ những công việc nhàm chán hoặc sản phẩm loại 2, vì họ sẽ không thể chấp nhận chúng đâu.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Logician_INTP_career_path.png" />
+                <h3>INTP khiến những thứ khô khan nhất trở nên đẹp lạ lùng</h3>
+                    <p>Mục tiêu của INTP là tìm kiếm và xây dựng mô hình cho các nguyên tắc và ý tưởng cơ bản, điều này khiến họ trở thành các nhà toán học tự hiên, phân tích hệ thống, nhà khoa học trong hầu hết lĩnh vực, đặc biệt là các lĩnh vực trừu tượng như Vật lý. Có rất nhiều ngành nghề cho phép họ khám phá, tuy nhiên, đối với họ việc nghiên cứu máy gia tốc hạt vẫn thú vị hơn là việc cải tiến máy hút bụi. <br />INTP có các tiêu chuẩn rất cao, "được rồi" không bao giờ có nghĩa là được rồi với họ. Họ luôn khó hiểu với những người xung quanh. INTP sống trong tưởng tượng của họ, họ rất ít quan tâm tới các cuộc trò chuyện phiếm hay những bài diễn thuyết. <blockquote>INTP thích một dự án thông minh, và họ ghét tất cả những gì làm gián đoạn dự án đó.</blockquote>Chính vì những nguyên nhân này, một công việc càng phân quyền bao nhiêu càng tốt bấy nhiêu với họ. Các lĩnh vực nhỏ về pháp luật, phân tích pháp y hay thí nghiệm là hợp nhất với INTP. Hãy tạo ra tự do, đừng cố gắng trói buộc họ, INTP sẽ ra đi ngay lập tức, và trở thành chuyên gia tư vấn tự do.</p>
+                <h3>Giá trị cảm xúc: Việc quá mơ hồ</h3>
+                    <p>INTP không thể phát triển ở những chỗ cần đến cảm xúc. Việc tìm hiểu cảm xúc làm họ cảm thấy nhàm chán, dĩ nhiên họ vân phân tích tâm lý khách hàng rất tốt, nhưng để áp dụng các chương trình này hàng ngày thì lại cần tới những nhóm tính cách khác. <br />Việc kinh doanh ngày càng khó khăn đòi hỏi hệ thống quản lý kỹ thuật, dữ liệu và lý thuyết phức tạp. Việc này rất cần các INTP đứng ra hiện thực hóa nó. <br />Làm việc phân tích kinh doanh, chiến lược rất phù hợp với nhóm người này, nhưng INTP cũng phù hợp với việc phân tích dữ liệu, kỹ sư cơ khí, điện và điện tử viễn thông, thậm chí còn có thể viết văn hoặc viết báo kỹ thuật. Chỉ cần nghề gì có khả năng cống hiến cho xã hội, ta đều có thể thấy bóng dáng một INTP ở đó.</p>
+            <div class="panel-body">
+                <h2 id="7">Thói quen làm việc</h2>
+            </div>    
+                <p>Môi trường làm việc trí tuệ và độc lập là thứ INTP rất cần, dù ở vị trí nào trong công ty, họ luôn muốn đặc quyền tự do theo đuổi, không bị ràng buộc bởi nghĩa vụ xã hội và các bản báo cáo tiến độ. <br />INTP cũng hoạt động rất tốt trong các nhóm, vị trí của họ quyết định xem các cá nhân trong nhóm nên có tính cách thế nào. Tuy nhiên, INTP luôn cần những người thuộc nhóm Thực thi để hiện thực hóa suy nghĩ của mình, nếu không các suy nghĩ đó sẽ đều trôi mất theo thời gian.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Logician_INTP_workplace_habits.png" />
+                <h3>Khi còn thuộc cấp</h3>
+                    <p>Ở đúng điều kiện làm việc, INTP sáng tạo, chăm chỉ, tháo vát, họ luôn có những giải pháp không chính thống nhưng hiệu quả. Các nhà quản lý hãy nhượng bộ nếu cần từ họ những phẩm chất này, tuy thế, việc nhượng bộ và tạo dựng lòng tin với INTP cũng rất cần thời gian. <br />INTP thích làm việc một mình, chỉ khi đó họ mới đủ khả năng tập trung tạo ra giá trị mới. Tuy nhiên, họ rất cần một người bên cạnh để giữ mọi chuyện đi đúng hướng, cũng như hiện thực hóa những ý tưởng của họ.</p>
+                <h3>INTP đồng cấp</h3>
+                    <p>INTP thường ít tiếp xúc với đồng nghiệp. Cafe, chitchat, nhậu nhẹt - tất cả chỉ khiến họ càng thích làm việc một mình. Dù khá giữ khoảng cách, INTP vẫn hiểu động cơ của đồng nghiệp và không hề thiên vị (cho dù đôi khi có hiểu lầm). <br />Họ thích các vấn đề khó và phức tạp, và rất tự hào khi đạt được nó. Dĩ nhiên nó không áp dụng với các vấn đề cảm xúc, ngoài ra họ cũng rất thích nói chuyện về các luận điểm, học thuyết với những người cùng chung sở thích</p>
+                <h3>Khi làm quản lý...</h3>
+                    <p>Dù ít quan tâm tới việc quản lý, đây lại là cơ hội để INTP chỉ đạo các phương pháp làm việc còn người khác xử lý hậu cần. Họ có một phong thái ung dung linh hoạt, cởi mở và hỗ trợ cấp dưới. Đừng quên tiêu chuẩn cực cao của nhóm người này, hãy nắm bắt ý định của họ ngay lập tức, và đừng quên họ hỗ trợ tất cả như nhau. <br />INTP lãnh đạo sẽ kéo theo làn gió mới hơn bất kỳ nhóm nào khác - xu hướng bỏ qua cảm xúc người khác khiến họ bỏ ngoài tai những lời chỉ trích để chỉ đạo dự án một cách hoàn hảo nhất. Lúc này họ cần một trợ lý, người lọc những suy nghĩ của họ và chỉ đạo nhóm dưới quyền một cách hiệu quả hơn.</p>
+            <div class="panel-body">
+                <h2 id="8">Tổng kết</h2>
+            </div>    
+                <p>Trí tuệ và logic là điểm mạnh của nhóm người này, họ có thể giải trí với việc bắt bộ não suy nghĩ (!). Tuy nhiên INTP dễ bị vấp ngã từ khâu xuất phát. <br />Cho dù là tìm kiếm hay giữ chân bạn đời, kết bạn, đi lên trong sự nhiệp hay để đưa ra những quyết định khó khăn, INTP vẫn luôn cần cố gắng phát triển hơn nữa những mặt còn yếu của chính mình.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Logician_INTP_conclusion.png" />
+        </div>
+    </div>
+{% endblock %}

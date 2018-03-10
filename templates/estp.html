@@ -1,0 +1,111 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    <title>ESTP</title>
+{% endblock %}
+
+{% block style %}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/resultpages.css') }}">
+{% endblock %}
+
+{% block body %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#1">Giới thiệu</a></li>
+            <li><a href="#2">Điểm mạnh, Điểm yếu</a></li>
+            <li><a href="#3">Tình yêu</a></li>
+            <li><a href="#4">Tình bạn</a></li>
+            <li><a href="#5">Tình cảm gia đình</a></li>
+            <li><a href="#6">Con đường sự nghiệp</a></li>
+            <li><a href="#7">Thói quen làm việc</a></li>
+            <li><a href="#8">Tổng kết</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-lg-2 col-md-3 col-sm-3">
+            <!--for something else-->
+        </div>
+        <div class="col-lg-10 col-md-9 col-sm-9 fill">
+            <img class="img-responsive" src="https://storage.googleapis.com/neris/public/images/headers/estp-personality-type-header.png" />
+            <div class="panel-heading">
+                <h1>Nhóm ESTP (Người khởi xướng)</h1>
+            </div>
+            <p>Thông minh, nhiều năng lượng và rất thấu hiểu, những người này luôn thích hiểm nguy.</p>
+            <div class="panel-body">
+                <h2 id="1">Giới thiệu</h2>
+            </div>
+                <p><blockquote>Cuộc sống không có thử thách không phải là cuộc sống.</blockquote>ESTP là một cá tính luôn thích giao du với mọi thứ xung quanh - cách tốt nhất để nhận ra họ là những người di chuyển nói chuyện hết từ nhóm này sang nhóm khác trong một buổi tiệc. Họ cười với cả những chuyện đùa nhạt nhất, ESTP thích trở thành trung tâm của sự chú ý. Nếu như có lúc nào đó, trên sân khấu mời một người khán giả, họ sẽ luôn sẵn sàng đi lên... hoặc sẵn sàng chỉ điểm người bạn ít nói của mình lên. <br />Những chuyện to tát không phải là sở thích của nhóm này, họ thích những câu truyện hài hước, thi thoảng pha thêm ít trí tuệ, nhưng họ muốn họ là người kể - hoặc chả cần kể, họ ra ngoài và làm việc đó. ESTP luôn hành động, ứng biến, thay vì ngồi yên suy nghĩ từng đường đi nước bước.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Entrepreneur_ESTP_introduction.png" />
+                <h3>Không phải cứ chuyển động là hành động</h3>
+                    <p>ESTP là kiểu nguoiwf sống mạo hiểm. Họ sống trong thực tại và luôn hành động - những người này luôn là tâm bão. Họ thích suy nghĩ kiểu một vở bi kịch, với sự đam mê, và cả sự vui thích. Họ luôn ra quyết định dựa trên thực tế một cách nhanh nhất có thể. <br />Điều này khiến trường lớp và các tổ chức có kết cấu phức tạp trở thành một thử thách đối với họ. Không phải tại họ kém thông minh, họ có thể làm tốt, nhưng việc đó không phải những gì họ thích. Phải đủ chín chắn thì ESTP mới hiểu rằng việc học là cần thiết, và nó mở ra nhiều cơ hội mới mẻ hơn. <br />ESTP cũng là những người có một luồng tư tưởng đạo đức riêng: Các luật lệ được đặt ra để phá bỏ - đây cũng là một điều mà một vài hiệu trưởng hay giám đốc làm, và điều đó khiến ESTP lập tức kính trọng cấp trên... nhưng nếu việc này đồng nghĩa với kết quả là một đống những thứ vớ vẩn, tốn công tốn sức, trong khi lại tối thiểu hóa việc gây thiệt hại, họ sẽ không làm đâu.</p>
+                <h3>Họ thường là người lắng nghe rất tốt</h3>
+                    <p>ESTP có một khả năng độc nhất vô nhị trong việc nhận ra những thay đổi dù nhỏ nhất. Dù cho đó là thay đổi nét mặt, phong cách ăn mặc, hay thay đổi một thói quen, ESTP sẽ luôn nhận ra và muốn tìm hiểu về suy nghĩ và động cơ đằng sau việc ấy. ESTP luôn hành động, họ hỏi ngay lập tức, thường ít khi là hỏi riêng, hãy luôn nhớ là chẳng phải ai cũng thích để lộ những bí mật và quyết định của bản thân đâu. <blockquote>Đôi khi khả năng chú ý của ESTP là rất cần thiết, trong hoạt động của doanh nghiệp, hay trong trường hợp khẩn cấp.</blockquote>Chỉ chiếm khoảng 4% dân số, số lượng này là đủ để ESTP khiến cuộc sống thi vị và có tính ganh đua hơn, nhưng không đủ để lật đổ một chế độ. <br />ESTP luôn đầy nhiệt huyết. Biết cách truyền cảm hứng, thuyết phục và biết cách tỏa sáng, họ được sinh ra để làm nhóm trưởng, kéo mọi người đi vào con đường ít ai đi lại, đem theo sự tươi vui bất cứ nơi nào họ qua. Đưa được nguồn năng lượng này vào những việc mang tính xây dựng là một thử thách thật sự với nhóm người này.</p>
+            <div class="panel-body">
+                <h2 id="2">Điểm mạnh, Điểm yếu</h2>
+            </div>
+                <h3>Điểm mạnh:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/explorers_Entrepreneur_ESTP_strengths.png" />
+                    <ul><li>Can đảm</li> <li>Thực tế</li> <li>Nhạy cảm với những sự thay đổi</li> <li>Thẳng thắn</li> <li>Hướng ngoại</li></ul>
+                <h3>Điểm yếu:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/explorers_Entrepreneur_ESTP_weaknesses.png" />
+                    <ul><li>Không quan tâm lắm đến cảm xúc người khác</li> <li>Thiếu kiên nhẫn</li> <li>Ưa mạo hiểm</li> <li>Không sợ luật pháp</li> <li>Có thể bỏ qua tương lai</li> <li>Có lối sống phòng thủ</li></ul>
+            <div class="panel-body">
+                <h2 id="3">Tình yêu</h2>
+            </div>
+                <p>Họ là những con ngựa bất kham trong chuyện tình cảm, cuộc sống là muôn màu muôn vẻ với họ, sao phải vội? Họ thường lúc này lúc khác, cho dù có mất rất nhiều thời gian lên kế hoạch cho một "ngày nào đó",, sự nhiệt tình cà khó lường khiến họ luôn muốn hẹn hò với người khác. <blockquote>Hẹn hò với ESTP không bao giờ nhàm chán. Họ có một danh sách không bao giờ cạn các việc để thử, và họ luôn khuyến khích nửa kia mạo hiểm cùng họ.</blockquote>ESTP yêu các ý tưởng và những câu chuyện triết lý - nhưng họ muốn hai người không chỉ nói, mà muốn hành động cùng nhau.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Entrepreneur_ESTP_romantic_relationships.png" />
+                <h3>Giống như dòng suối</h3>
+                    <p>ESTP không có ý kiến gì về chuyện tình dục, nó vui, họ cũng thích nó, và các ý tưởng mới luôn được chào đón nhiệt liệt, và ESTP đủ năng lượng để theo kịp nửa kia của mình. Tuy nhiên, chuyện tình cảm và tình dục là tách bạch đối với họ, và điều này khiến một số bực mình. Với một vài kiểu người, tình yêu và tình dục là một, ESTP chỉ đơn giản không phải kiểu người đó. <br />Thách thức với ESTP là họ không muốn đẩy tình cảm đi xa hơn. Cả thèm mau chán, nhóm tính cách này luôn muốn tìm kiếm một niềm vui mới, kể cả phải chấp nhận mạo hiểm. Nếu người họ yêu không thể tiếp tục làm mới mình, họ sẽ đi tìm một người khác. Không phải tại họ không chung thủy, chỉ là trong suy nghĩ của họ, họ muốn sống thật với cảm xúc của mình. Thường thì việc chia tay ESTP không mấy dễ dàng, vì họ quá nổi tiếng và cuốn hút.</p>
+                <h3></h3>
+                    <p>Chuyện tình cảm cần sự nhẫn nại và công sức bỏ ra, chứ không phải trò chơi mạo hiểm từng phút từng giây. ESTP với sự tò mò và khả năng thay đổi sẽ luôn giữ lửa trong mối quan hệ này. Kéo dài một mối quan hệ là cơ hội để ESTP thể hiện khả năng cảm nhận thay đổi trong cảm xúc và thói quen của người yêu, trong khi sử dụng kỹ năng giải quyết vấn đề để định hướng những gì họ cần. ESTP cũng phát triển được cả những lĩnh vực họ đang kém, như khả năng kiềm chế và cách lên kế hoạch dài hạn. <br />Nhóm có tiềm năng làm người yêu của ESTP là những nhóm có chung tính cách Cảm quan - Observant (S), và có định hướng Hướng nội (I) và Phán xét -Judging (J). Những tính cách này giúp ESTP có một thái độ và nội tâm nhất quán, trong khi ESTP có thể giúp họ thư giãn và bước chân ra ngoài xã hội nhiều hơn.</p>
+            <div class="panel-body">
+                <h2 id="4">Tình bạn</h2>
+            </div>
+                <p>ESTP luôn là trung tâm của mọi cuộc vui, với trí tưởng tượng phong phú và sự tự nhiên, ở bên cạnh họ không bao giờ nhàm chán. Họ thích khám phá các ý tưởng mới, cả trong việc trò chuyện hay bước chân ra ngoài xem xét nó tận mắt, điều này nghĩa là họ luôn có một việc vui vẻ nào đó đang còn che giấu. ESTP dễ tha thứ, dễ chịu và luôn cuốn hút, khiến họ khá nổi tiếng trong các đám đông.</p>
+                <h3>Họ khơi gợi ngon lửa khi có ý tưởng...</h3>
+                    <p>Những hoạt động thể thao tổ đội có tính đối kháng luôn là ý tưởng của ESTP, những hoạt động này luôn giúp họ kết thêm bạn mới. Họ thích giành thời gian với bạn bè, và kết bạn bất kỳ lúc nào, ở đâu. ESTP sống cho hiện tại, và bản tính trời sinh tự tin khiến họ không quan tâm người khác nghĩ gì về họ, điều này khiến họ có rất nhiều bạn, những người có chung một phong cách và lối sống.</p>
+                    <img src="https://www.16personalities.com/images/types/scenes/explorers_Entrepreneur_ESTP_friendships.png" />
+                    <p>Tuy không có định kiến gì với các câu chuyện mang tính triết lý, ESTP không thích làm bạn với những người hay nói chuyện to tát về chính trị. ESTP là con người của hành động, sao phải nói là ngày nào đó sẽ làm mà không phải là làm luôn ngay bây giờ?</p>
+                <h3>... Ngay cả khi ý tưởng đó đốt trụi cả một cánh rừng</h3>
+                    <p><blockquote>Ngồi không là một sự chán chường, và nó chống lại lý do tồn tại của ESTP</blockquote>Khám phá, vui thú và lượng adrenaline được não đưa vào máu mỗi khi hành động mạo hiểm - bạn bè của ESTP nên chuẩn bị cho những điều này. ESTP thường xuất hiện trước đám đông, một vài thời điểm họ đẩy bạn vào vị trí phải lên tiếng trước đám đông. Là loại người mà bạn thường phải nói "Cám ơn, nhưng không!", ESTP khá hài lòng về bản thân mình, và họ chỉ nhún vai, gọi điện cho đứa bạn khác nếu bạn không muốn dấn thân vào thử thách.</p>
+            <div class="panel-body">
+                <h2 id="5">Tình cảm gia đình</h2>
+            </div>    
+                <p>Theo một cách nào đó, ESTP là một người mà rất nhiều đứa trẻ muốn bố mẹ chúng được như thế. Vui tươi và thương yêu con cái, dễ dàng và rộng lượng, ESTP luôn có thể dành nhiều thời gian vui đùa cùng trẻ, và họ biết cách làm sao để cả hai cùng có khoảng thời gian vui vẻ. ESTP được trời sinh tự nhiên và tò mò, chả trách sao họ rất hợp với sự tò mò của trẻ.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Entrepreneur_ESTP_parenthood.png" />
+                <h3>Mọi thứ luôn mới mẻ</h3>
+                    <p>ESTP thích mó tay vào hành động, và trẻ thì thích có người chơi bóng cùng, hay là cùng làm bài tập thủ công. Thể thao, dã ngoại, bất kỳ việc gì có tính chất hành động sẽ được chào đón và khuyến khích. ESTP thích tham gia vào tất cả các hoạt động hay câu lạc bộ cùng trẻ. Nếu chúng thích bóng đá hay bóng chày, tốt - nếu không, họ sẽ tìm ra thứ gì khác để chơi ngay lập tức. <blockquote>Có lẽ điều tuyệt vời nhất đối với trẻ là được ESTP xem như một thành viên bằng vai phải lứa trong gia đình.</blockquote>ESTP cho con sự tự do, khuyến khích chúng có nhận định riêng (đặc biệt trong một vài vấn đề), và muốn trẻ theo đuổi đam mê - mặc xác cuộc đời suy nghĩ gì. ESTP luôn quan tâm tới con, và với khả năng phát hiện dù chỉ thay đổi nhỏ nhất, họ luôn có thể bước vào hướng dẫn thêm nếu mọi chuyện bắt đầu có dấu hiệu xấu. <br /> ESTP chỉ có một điểm yếu trong việc làm cha mẹ: gắn bó cảm xúc. Thuộc về nhóm Lý trí - Thinking (T), cảm xúc đối với họ dường như hơi thừa thãi, chứ không phải một công cụ biểu đạt và kết nối. Và mọi chuyện có vẻ sẽ xấu đi nếu con họ có tính cách thuộc nhóm Cảm xúc - Feeling (F). Sự thật trần trụi đôi khi không phải một cách giải quyết.</p>
+                <h3>Tuy vậy, ai cũng cần học tập</h3>
+                    <p>ESTP mang đến cho con trẻ một mối quan hệ thẳng thắn và hiểu biết lẫn nhau - một điều quá quý giá trong quan hệ cha mẹ với con cái. Tuy nhiên, họ vẫn cần sự hỗ trợ của một người bạn đời nhạy cảm nếu muốn trẻ phát triển hoàn hảo.</p>
+            <div class="panel-body">
+                <h2 id="6">Con đường sự nghiệp</h2>
+            </div>    
+                <p>Khi nói đến lựa chọn nghề nghiệp của ESTP, "hành động" có lẽ là từ được dùng nhiều nhất. ESTP suy nghĩ và phản ứng rất nhanh. Cùng lúc đóm họ cũng là những người kết bạn ở thất cả những nơi họ đến. Sự nổi tiếng và một mạng lưới bạn bè rộng khắp là điều cần thiết để cho thế giới hoạt động, ESTP thì luôn thừa điều này.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Entrepreneur_ESTP_career_path.png" />
+                <p>Những kỹ năng xã hội, cùng với sự liều lĩnh giúp ESTP tăng cường khả năng bán hàng, khả năng thương lượng, kỹ năng tiếp thị. ESTP tự tin khi cần gọi điện thoại. Luôn liều lĩnh, họ không ngồi một chỗ đợi sếp đến ra lệnh cho họ phải làm gì. Việc này có thể đem lại rắc rối cho ESTP, cũng như mang lại cơ hội cho họ. <blockquote>Thật khó hình dung nếu ESTP lại chọn một công việc dễ dàng nhàm chán thay vì công việc khó khăn nhưng thú vị.</blockquote>Những điều cấm kỵ, luật lệ, môi trường phân cấp - tất cả làm cho ESTP điên đầu, nhón người này thích làm theo luật của họ, và điều này khiến họ thường tự ra làm ăn riêng hoặc làm việc như một nhân viên tự do. Tính cách này cũng khiến họ từ bỏ những nghề như kế toán, để tìm cái gì đó thú vị hơn. <br />ESTP là những người nhiệt tình, tò mò, và thích hành động. Có những người dự đoán và xây dựng hệ thống đường sá và hành lang an toàn, cũng có những người lái xe cứu thương, đi tuần đường phố, và cứu mạng sống của người khác với đôi tay của chính mình - ESTP là kiểu người thứ hai. Họ rất nôn nóng, có thể nhảy vào hành động chỉ trong chớp mắt. Những việc mang tính khẩn cấp như bác sỹ cấp cứu, cảnh sát, quân đội rất phù hợp với họ.</p>
+                <h3>Đừng chỉ nghĩ họ ngồi xuống với công việc bàn giấy</h3>
+                    <p>Cách sống "mỳ ăn liền" cũng khiến cho họ hợp với một nghề nghiệp khác: thể thao. Niềm vui sướng được ganh đua, thúc đẩy bản thân tới giới hạn vật lý để ghi thêm một điểm giành chiến thắng là niềm vui của họ. Bất kể họ là cầu thủ hay huấn luyện viên, họ luôn đóng góp cho cả đội cũng như đưa ra những chiến thuật hợp lý...</p>
+            <div class="panel-body">
+                <h2 id="7">Thói quen làm việc</h2>
+            </div>    
+                <p>Không khó để nhận ra họ, dù ở bất cứ nơi đâu. Sôi nổi và tự nhiên, luôn vui vẻ, ESTP thích phóng đại những vấn đề họ gặp phải để sau đó kể câu chuyện họ đã vượt qua nó như thế nào. Dĩ nhiên có một vài nghề hợp với họ hơn những nghề khác, nhưng ESTP luôn nghĩ ra cách làm mọi tình huống trở nên thú vị hơn lên.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Entrepreneur_ESTP_workplace_habits.png" />
+                <h3>Khi còn thuộc cấp</h3>
+                    <p>Đây là vị trí làm họ nản lòng hơn bất kỳ ai, vì những luật lệ của người khác hiện áp đặt lên vai họ. ESTP nổi tiếng với sự trải nghiệm, suy nghĩ nhanh và khả năng đổi mới - nếu không được sử dụng những kỹ năng này, họ sẽ sớm nản lòng mà thôi! <br />ESTP biết càng mạo hiểm thì càng ăn đậm, và họ sẵn sàng làm những việc khác người, mong thu hút được sự chú ý.</p>
+                <h3>ESTP đồng cấp</h3>
+                    <p>ESTP làm việc nhiệt tình, vui chơi nhiệt tình hơn. Họ dễ dàng xây dựng quan hệ, vì sự cuốn hút và nổi tiếng của bản thân. Họ gần như có thể làm quen với tất cả mọi người. <br />Nhưng đồng thời, họ coi những đồng nghiệp của họ là những người không đủ khả năng, và nhạy cảm vốn không phải là một thế mạnh của họ.</p>
+                <h3>Lúc làm lãnh đạo...</h3>
+                    <p>ESTP luôn nhắm tới vị trí này, họ ghét các luật lệ - và họ sẵn sàng thử nghiệm hàng tá ý tưởng mới hơn là việc để yên "cho mọi thứ ở vị trí cũ". Dù sao ESTP cũng là những người thực tế, và họ hiểu cái gì hoạt động được, cái gì không. <br />ESTP thích những mục tiêu nhỏ, thay vì một mục tiêu chung chung như "làm khách hàng hài lòng", họ đề ra những mục tiêu nhỏ, cụ thể, những thứ có thể đạt được từng ngày một và liên tục khen thưởng. ESTP tất nhiên vẫn giữ ánh mắt của họ ở đích đến cuối cùng kia, chỉ là việc họ sẽ làm là từng bước tiến đến đó.</p>
+            <div class="panel-body">
+                <h2 id="8">Tổng kết</h2>
+            </div>
+                <p>Rất ít tính cách vừa lôi cuốn vừa thu hút số đông như ESTP. Họ có kỹ năng tập trung tất cả vào hiện tại và kỹ năng nâng cấp chúng,  ESTP tìm và trải nghiệm mọi sự vui vẻ có thể. Nguồn năng lượng, sự nhiệt thành và tính thực dụng của họ có giá trị trong rất nhiều lĩnh vực.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Entrepreneur_ESTP_conclusion.png" />
+        </div>
+    </div>
+{% endblock %}

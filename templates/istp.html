@@ -1,0 +1,105 @@
+{% extends "layout.html"%}
+    
+{% block title %}
+    <title>ISTP</title>
+{% endblock %}
+
+{% block style %}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/resultpages.css') }}">
+{% endblock %}
+
+{% block body %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#1">Giới thiệu</a></li>
+            <li><a href="#2">Điểm mạnh, Điểm yếu</a></li>
+            <li><a href="#3">Tình yêu</a></li>
+            <li><a href="#4">Tình bạn</a></li>
+            <li><a href="#5">Tình cảm gia đình</a></li>
+            <li><a href="#6">Con đường sự nghiệp</a></li>
+            <li><a href="#7">Thói quen làm việc</a></li>
+            <li><a href="#8">Tổng kết</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-lg-2 col-md-3 col-sm-3">
+            <!--for something else-->
+        </div>
+        <div class="col-lg-10 col-md-9 col-sm-9 fill">
+            <img class="img-responsive" src="https://storage.googleapis.com/neris/public/images/headers/istp-personality-type-header.png" />
+            <div class="panel-heading">
+                <h1>Nhóm ISTP (Người thực hành)</h1>
+            </div>
+            <p>Dũng cảm và có nhiều kinh nghiệm thực tế, những người này dường như biết sử dụng mọi dụng cụ.</p>
+            <div class="panel-body">
+                <h2 id="1">Giới thiệu</h2>
+            </div>
+                <p>ISTP thích tìm hiểu mọi thứ bằng đôi tay và đôi mắt của họ, kiểm tra tất cả mọi thứ với một sự tò mò tự nhiên. Nhóm này thường là các nhà chế tạo, từ dự án này đến dự án khác, xây dựng nên những hệ thống hữu ích vì đó là sở thích của họ, và học tập từ những thực tế họ đã trải qua. ISTP thường là kỹ sư hoặc thợ máy, họ thích việc tháo lắp những máy móc phức tạp bằng đôi tay lấm lem dầu mỡ, trả chúng về với trạng thái tốt hơn.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Virtuoso_ISTP_introduction.png" />
+                <p>ISTP khám phá các ý tưởng thông qua việc sáng tạo, thuer nghiệm và sửa chữa và là những người tiên phong trong việc thử nghiệm. Họ thích việc có người khác kiếm được lợi nhuận từ các dự án của mình và đôi khi không màng việc mang vác tất cả những thứ cồng kềnh phức tạp đó về nhà. Dĩ nhiên, "những người khác" không nên xen vào sự tự do của họ, và những người này nên trả lại cho ISTP một khoản lợi nhuận xứng đáng. <br />ISTP thích giúp đỡ và chia sẻ kinh nghiệm, đặc biệt với những người họ quan tâm. Nhóm này chỉ chiếm khoảng 5% dân số, và phái đẹp trong nhóm là đặc biệt hiếm.</p>
+                <h3>Dám khác biệt</h3>
+                    <p>ISTP khá bí bẩn. Thân thiện nhưng tách biệt, bình tĩnh nhưng cũng tự nhiên, cực lỳ tò mò nhưng lại không đủ tập trung học hành, ISTP là một nhóm khó hiểu, ngay cả với những người thân xung quanh họ. ISTP dường như rất trung thành trong một khoảng thời gian, nhưng dường như họ càng bị nén bao nhiêu thì càng bật mạnh bấy nhiêu. <blockquote>Khi sang số xe, thay vì tận hưởng tốc độ mới như người thường, ISTP hình thành một sở thích tìm hiểu mới.</blockquote>ISTP có một định hướng công bằng khá rõ nét, một kiểu sống "bật lại", điều này có thể lý giải rất nhiều tình huống suy nghĩ của họ. Thay vì tránh va chạm với người khác, ISTP không ngần ngại phản pháo. <br />Vấn đề lớn nhất ISTP gặp phải là họ hành động trước khi kịp suy nghĩ về hậu quả của nó: họ là người đầu tiên kể những chuyện hài quá trớn, là người đầu tiên tham gia vào một dự án nào đó, và cũng là người đầu tiên bỏ cuộc khi thấy một thứ khác thú vị hơn.</p>
+                <h3>Chẳng gì nhàm chán hơn việc ai cũng đồng ý với bạn</h3>
+                    <p>ISTP sẽ nhận ra có nhiều nhóm tính cách khác có những biên giới rõ ràng việc nào được làm việc nào không hơn họ. Nếu trường hợp xảy ra liên quan đến vấn đề cảm xúc, vượt qua giới hạn đó có thể mang tới những kết cục không hay. <br />Khá khó để hiểu ISTP nghĩ gì, vì tính công bằng khiến ta có thể đoán họ sẽ hành dộng thế nào, chứ không giúp ta hiểu được cảm xúc và động cơ của họ. Mong muốn kết bạn qua hành động thay vì một điểm chung cũng khá khó hiểu với một số người, khiến ISTP kẹt giữa các biên giới và chỉ dẫn, họ thì thích tự do và sẵn sàng làm trái mọi việc nếu cần. <br />Tìm được một môi trường làm việc nơi họ có những người bạn hiểu được cách sống của họ, kết hợp cùng với sự sáng tạo, khiếu hài hước và khả năng giải quyết mọi việc, tất cả cho ISTP rất nhiều năm hạnh phúc cống hiến.</p>
+            <div class="panel-body">
+                <h2 id="2">Điểm mạnh, Điểm yếu</h2>
+            </div>    
+                <h3>Điểm mạnh:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/explorers_Virtuoso_ISTP_introduction.png" />
+                    <ul><li>Lạc quan và nhiều năng lượng</li> <li>Sáng tạo và thực tế</li> <li>Tự nhiên</li> <li>Biết thứ gì là quan trọng</li> <li>Luôn cần thiết trong các cuộc biến động</li> <li>Sống thoải mái</li></ul>
+                <h3>Điểm yếu:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/explorers_Virtuoso_ISTP_weaknesses.png" />
+                    <ul><li>Cố chấp</li> <li>Không nhạy cảm</li> <li>Sống khép kín</li> <li>Dễ chán</li> <li>Không thích các cuộc họp</li> <li>Có xu hướng mạo hiểm</li></ul>
+            <div class="panel-body">
+                <h2 id="3">Tình yêu</h2>
+            </div>
+                <p>Hẹn hò với ISTP như một bản tango, phức tạp và thú vị, thay đổi giữa lạnh lùng và nhiệt tình, sự xa cách và sự tự nhiên. Không có thứ gì ép buộc họ trong một mối quan hệ, nhưng nếu bạn để yên một khoảng trống cho họ, họ sẽ là người tình bên bạn trọn đời.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Virtuoso_ISTP_romantic_relationships.png" />
+                <h3>Ai cũng có thể yêu nhau</h3>
+                        <p>Trong thời kì đầu, ISTP có thể rất lơ đãng - họ sống trong từng phút giây, luôn tìm những trải nghiệm mới. Nếu bạn không thích điều đó, ISTP cũng chả quan trọng việc chia tay. ISTP cũng rất cần những khoảng cách, cả khoảng cách tinh thần lẫn vật lý. Tất cả các nỗ lực kiểm soát họ chỉ làm mọi chuyện xấu đi. <br />Mặt khác, ISTP cũng không có vấn đề gì nếu muốn thay đổi người yêu. Nhóm này không có một tí ý nghĩ truyền thống nào khi nói về tình yêu, và sẽ hướng hai người đến chuyện tình dục ngay trong thời kì đầu. ISTP dùng mọi giác quan của họ, họ coi hoạt động tình dục như là một nghệ thuật, một buổi trình diễn, là khởi nguồn cho cảm hứng.<br />Khi tình cảm tiếp tục phát triển, bạn sẽ nhận ra con người này rất ít biểu lộ cảm xúc. Không phải ISTP không có cảm xúc - cảm xúc của họ mạnh mẽ và sâu kín - họ dồn nén và bảo vệ chúng đơn giản vì họ không biết phải làm gì cũng như diễn đạt cảm xúc ra sao. ISTP có thể quay lưng lại với bất cứ thứ gì họ không hiểu mà! <br />Tất cả mọi nỗ lực làm hai người hiểu nhau hơn của bạn chỉ khiến ISTP sợ chết khiếp, chẳng có gì đáng sợ hơn với họ là việc biết họ tiến vào một nơi nào đó không có đường ra. Mỗi ngày đều là những ngày mới, và họ sẽ yêu bạn từ phút giây này đến phút giây khác. <blockquote>Nếu ISTP trở thành người bạn đời của ai, đó phải là một quá trình tiến hóa tự nhiên từ quá trình yêu nhau ngày qua ngày của họ.</blockquote>Bạn đừng nên nghĩ việc này mang tính cá nhân, rằng họ chỉ yêu bạn theo cách đấy, đây là cách mọi thứ diễn ra trong đầu họ. Nhóm người này sống trọn từng phút giây, trong một thế giới đầy dẫy những hoạt động vật lý có liên quan đến tình cảm, và họ cần biết là họ có tự do để theo đuổi cái gì đó vào hôm nay và cái gì khác ngày mai, không trói buộc là  bao giờ họ hoàn thành cái này, hoặc tại sao họ "tự nhiên thay đổi"! <br />Một chút biểu hiện và một chút thoải mái với việc để mọi thứ diễn ra theo cách của nó là một cách tốt để yêu nhóm người này. Người tình lý tưởng của ISTP thường mang tính cách Cảm quan - Observant (S), với một hay hai tính cách đối lập như Phán xét - Judging (J) hay Hướng ngoại - Extraverted (E), để giúp họ tìm hiểu có một thế giới ngoài kia cũng liên quan đến loài người đó chứ!</p>
+            <div class="panel-body">
+                <h2 id="4">Tình bạn</h2>
+            </div>
+                <p>Khi nói về tình bạn, điều này với ISTP có nghĩa là: "dễ kiếm, khó thân". Họ có rất nhiều sở thích nên không khó khăn gì tìm được một người có chung sở thích với họ. Nhưng để làm bạn thân của họ không phải là việc dễ, vì họ rất khó hiểu.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Virtuoso_ISTP_friendships.png" />
+                <h3>Một ngày nào đó... không phải hôm nay</h3>
+                    <p>Vấn đề chủ yếu là ISTP không muốn bị trói buộc vào bất cứ ai hay bất kỳ việc gì. Họ sống từng phút giây, tận hưởng bất kỳ điều gì cuộc sống trao tặng, và không muốn chuyển hướng sang một kế hoạch của người khác. Nếu không ai muốn làm những việc họ định làm, họ sẽ tự đi làm việc đó, và gặp lại mọi người vào một dịp khác. Cũng có lúc họ làm mọi người ngạc nhiên khi thay đổi quyết định, nhưng tiêu chí của họ vẫn giữ nguyên "mọi thứ đều có thể thay thế". Ép họ làm một việc gì đó là cách nhanh nhất để kết thúc tình bạn. <br />Tuy nhiên, tình bạn với nhóm người này mang lại những phần thưởng không ngờ tới, ISTP thích những hoạt động ngoài trời như câu các hay lắp ráp thứ gì đó, đặc biệt những hoạt động này rất hợp với những nhóm ít người. Sở thích của họ rất nhiều, và cũng không khó khăn mấy để họ bắt kịp sở thích của người khác. <br />ISTP cũng là những người nhiều ý tưởng, họ thích nói về chúng - nếu ở đoạn sau đó, mọi người cùng bắt tay vào làm với họ. Họ tưởng tượng tốt, nhưng lại diễn đạt tồi. Đừng có nói về những vấn đề không phải của họ, đó chỉ là những thứ khiến họ rối trí mà thôi. <br />Cá tính của ISTP khiến họ rất khó kết bạn với nhóm Trực quan - Intuitive (N), vì nhóm này ít thích hoạt động. Với tính cách này họ hợp hơn với những người thuộc nhóm Cảm quan - Observant (S). Khi nào họ còn chung những sở thích, sự khác biệt tính cách không phải là điều đáng ngại, ít nhất là với ISTP.</p>
+                <h3>Họ chưa bao giờ hâm dở, cho đến bây giờ...</h3>
+                    <p>Sự cởi mở, các sở thích khác nhau, và một lối sống thoải mái khiến ISTP lôi kéo được rất nhiều bạn, và trong đó luôn có một số mối quan hệ tâm giao.</p>
+            <div class="panel-body">
+                <h2 id="5">Tình cảm gia đình</h2>
+            </div>    
+                <p>Khi nói đến việc làm cha làm mẹ,ISTP cho con cái họ nhiều tự do hơn bất kỳ nhóm tính cách nào khác. Có cả một thế giới rộng lớn ngoài kia cho trẻ khám phá, và họ không thích con mình ngồi trong nhà xem ti vi cả ngày. ISTP muốn con mình sử dụng sự tự do một cách thông minh, vào việc khám phá và trải nghiệm.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Virtuoso_ISTP_parenthood.png" />
+                <h3>Cả thế giới đều để khám phá</h3>
+                    <p>Đối với trẻ còn nhỏ, tất cả mọi thứ đều là những điều kỳ diệu có thể khám phá bằng mọi giác quan. Một cái hộp không chỉ có màu và hình dạng, mà còn có cả mùi và vị nữa. Cũng giống cách con trẻ học kỹ năng sửa chữa ô tô của ISTP, họ cũng sẵn sàng ngồi xếp hình từ những cái hộp cùng trẻ. Khi trẻ bắt đầu lớn và hiểu biết hơn, họ sẵn sàng cho trẻ sử dụng những công cụ thật và bắt đầu ghép những món đồ đáng giá. <br />Nếu đứa trẻ lớn lên cũng có cùng sự tự nhiên và đam mê hoạt động, họ sẵn sàng bên con trong mọi tình huống, bóng đá, leo núi, hay tháo lắp máy. Họ không ép con làm gì, họ chỉ thích nhìn con cái họ thích làm gì đó. <blockquote>Để đảm bảo là con trẻ không tự làm gì đó khiến cuộc đời chúng thay đổi theo chiều hướng xấu trong thời kỳ vị thành niên, ISTP rất cần một bạn đời có tính cách quản lý hơn.</blockquote>Điều mà ISTP thấy khó khăn nhất, là quan hệ tình cảm với con. Việc kiềm chế cảm xúc là một việc gì đó mà con trẻ học và cảm nhận dần theo năm tháng, và với một ISTP ít thể hiện tình cảm thì đó có thể là một sự thiếu vắng. Trong điều này họ cần một bạn đời có khả năng biểu thị cảm xúc tốt hơn. Nếu không, họ sẽ phải tự vật lộn để hiểu và chia sẻ được cảm xúc của chính con mình.</p>
+            <div class="panel-body">
+                <h2 id="6">Con đường sự nghiệp</h2>
+            </div>    
+                <p>ISTP luôn gặp khó khăn trong việc ổn định rất nhiều mặt của cuộc sống, đặc biệt là trong công việc. Họ thèm khát sự đa dạng và khó lường. Điều này khiến họ trở thành nhóm người bí ẩn nhất, đồng thời cũng là nhóm người toàn diện nhất về mặt kỹ thuật. <br />ISTP là người giỏi sửa chữa bẩm sinh và có một khả năng tập trung cao độ vào những giải pháp thực tế (không phải tất cả mọi giải pháp đều thực tế). KHông có nhóm tính cách nào đam mê việc vì sao mọi vật hoạt động, dụng cụ kia có thể sử dụng ra sao, và từng phần của bộ máy có thể lắp lại với nhau thế nào để tạo ra một kết quả ưng ý. Sự kết hợp của trí tò mò và sự nhiệt tình khiến ISTP trở thành những thợ máy tuyệt vời, các kỹ sư, thiết kế đồ họa, và những nhà khoa học pháp y.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Virtuoso_ISTP_career_path.png" />
+                <p><blockquote>Các học thuyết và các nghiên cứu thuần khoa học không thể đưa vào ứng dụng chiếm được rất ít hứng thú từ nhóm người này.</blockquote>"Thực tế" là một từ họ thích nhất, nhất là khi nó có một ít hành động - và đặc biệt là khi có thêm một chút adrenaline xúc tác trong công việc. Các cấu trúc phân tầng khiến ISTP sớm chán nản và mệt mỏi. Các công việc giúp xử lý các thảm họa như cảnh sát cứu hỏa, hỗ trợ y tế khẩn cấp, thám tử, phi công và cảnh sát dường như được tạp ra cho nhóm người này. <br />Cái quan trọng nhất với ISTP có lẽ là một tự do, một tự do để lang thang, để có một thời gian biểu riêng, một trách nhiệm riêng, một môi trường riêng - đây là một điều không thể có trong môi trường làm việc thông thường, và nó hướng họ đến việc tự khởi nghiệp.</p>
+                <h3>Hãy làm những gì con tim mách bảo</h3>
+                    <p>ISTP cần phải đối diện với khả năng lên kế hoạch dài hạn khá kém của mình nếu muốn hành nghề tự do, họ cần phải bán một vài thứ họ làm ra trong thời gian rảnh rỗi. Cũng có thể lựa chọn một công việc an toàn thỏa mãn các điều kiện của họ, hướng dẫn du lịch mạo hiểm chẳng hạn. <br />ISTP hiểu là sự liều lĩnh tỉ lệ thuận với thắng lợi, và nếu họ sử dụng nó với sự trưởng thành, thay vì giống một đứa trẻ phá nát tổ kiến khi buồn bực, họ là những người lành nghề rất được săn đón trong mọi lĩnh vực.</p>
+            <div class="panel-body">
+                <h2 id="7">Thói quen làm việc</h2>
+            </div>    
+                <p>ISTP luôn mong muốn sự khó lường và một cảm giác thích chết đi được. Điều này không những gây khó khăn cho họ trong chuyện tình cảm, ngay cả với gia đình và bạn bè, mà còn là một điểm yếu chết người khi họ cần bước chân vào một môi trường làm việc chuyên nghiệp. <br>ISTP có thể là một người sản xuất ra nhiều sản phẩm nhất trong cả công ty, nhưng đừng nên ép họ làm những gì họ không thích. Việc nhận ra khả năng sửa chữa và lắp ráp tuyệt vời của nhóm người này có thể mang đến một kết quả trên cả mong đợi.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Virtuoso_ISTP_workplace_habits.png" />
+                <h3>Khi còn thuộc cấp</h3>
+                    <p>Thư thả và dễ tính, ISTP luôn vui vẻ và trung thành đến không ngờ, nếu như sếp của họ không ép họ phải làm điều gì họ không thích. Các luật lệ cứng nhắc, hướng dẫn, hay những phép tắc theo đúng phong cách khiến họ sớm chán việc. Nếu có bất kỳ một điểm gì nói trên, phản ứng của ISTP sẽ vô cùng kịch liệt. <br />Nếu có thứ gì đó khiến họ vui vẻ, thì đó là một danh sách các công việc ngẫu nhiên gặp phải. ISTP có một khả năng chuyển hướng năng lượng chỉ cho các việc cần kíp đó. Tuy nhiên việc này nên dính líu đến hoạt động thực tiễn - nếu nó bắt đầu với "hãy tìm ra một kế hoạch để ...", mọi việc sẽ dễ dàng hơn nếu bạn đi tìm một người thuộc nhóm Phân tích.</p>
+                <h3>ISTP đồng cấp</h3>
+                    <p>ISTP dược đồng nghiệp quý mến nhiều hơn họ nghĩ. Luôn yên lặng và tách biệt, họ giữ khoảng cách, nhưng đồng thời cũng thích nhìn trộm xem những người xung quanh đang làm gì, hay có gì thú vị không. Không nhạy cảm và kém diễn đạt, khi ISTP mở mồm, họ có thể gây hiểu lầm và làm tổn thương một ai đó. <br />ISTP có một khiếu hài hước tốt, khi nó kết hợp với thói quen "bật lại" của họ có thể khiến cho mọi người thích thú.</p>
+                <h3>Lúc làm lãnh đạo...</h3>
+                    <p>Họ ít nói và ít luật lệ. ISTP không phải là người nói nhiều, các nhóm Cảm xúc - Feeling (F) có thể thấy họ lạnh lùng và xa cách. Tuy nhiên khi có vấn đề xảy ra, nhóm này rất biết cách lắng nghe và đưa ra những giải pháp thực tế.</p>
+            <h2 id="8">Tổng kết</h2>
+                <p>Rất ít người giỏi thực nghiệm và dũng cảm như nhóm người này, họ có một kho kỹ năng lướn và dám làm mọi chuyện, ISTP giỏi tìm ra giải pháp độc nhất cho những việc tưởng như là không thể. ISTP ham học hỏi, và họ rất có giá trị trong rất nhiều lĩnh vực trong cuộc sống.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/explorers_Virtuoso_ISTP_conclusion.png" />
+        </div>
+    </div>
+{% endblock %}

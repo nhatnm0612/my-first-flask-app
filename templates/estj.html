@@ -1,0 +1,110 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    <title>ESTJ</title>
+{% endblock %}
+
+{% block style %}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/resultpages.css') }}">
+{% endblock %}
+
+{% block body %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#1">Giới thiệu</a></li>
+            <li><a href="#2">Điểm mạnh, Điểm yếu</a></li>
+            <li><a href="#3">Tình yêu</a></li>
+            <li><a href="#4">Tình bạn</a></li>
+            <li><a href="#5">Tình cảm gia đình</a></li>
+            <li><a href="#6">Con đường sự nghiệp</a></li>
+            <li><a href="#7">Thói quen làm việc</a></li>
+            <li><a href="#8">Tổng kết</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-lg-2 col-md-3 col-sm-3">
+            <!--for something else-->
+        </div>
+        <div class="col-lg-10 col-md-9 col-sm-9 fill">
+            <img class="img-responsive" src="https://storage.googleapis.com/neris/public/images/headers/estj-personality-type-header.png" />
+            <div class="panel-heading">
+                <h1>Nhóm ESTJ (Người thực thi)</h1>
+            </div>
+            <p>Những người chủ tuyệt vời, khó có thể vượt qua trong việc quản lý mọi việc - hoặc mọi người.</p>
+            <div class="panel-body">
+                <h2 id="1">Giới thiệu</h2>
+            </div>
+                <p><blockquote>Một trật tự là khởi nguồn cho mọi thứ.</blockquote>ESTJ đại diện cho truyền thống và trật tự xã hội, thực thi những gì họ hiểu về đúng hay sai và những gì được xã hội công nhận, đưa gia đình và xã hội lại cần với nhau. Trung thực, mong muốn cống hiến và có phẩm giá, ESTJ được nhắc tới bởi những lời khuyên hữu ích, và họ sẵn sàng dẫn mọi người vào con đường mới. Có khả năng khiến mọi người xích lại gần nhau, ESTJ thường đóng vai trò của những người tổ chức xã hội, làm việc trong các cuộc họp khu phố...</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Executive_ESTJ_introduction.png" />
+                <h3>Mọi người hãy chiến đấu cho lẽ phải mình mong muốn</h3>
+                    <p>ESTJ chiếm không dưới 11% dân số, đòi hỏi việc có người lãnh đạo hiểu được suy nghĩ của họ, chính là lý do có khá nhiều lãnh đạo có tính cách này. Là một người tin tưởng vào pháp luật, ESTJ đi theo các tấm gương. Họ sống cống hiến và trung thực, ghét sự giả dối và lười biếng, đặc biệt là trong công việc. Nếu có ai đó đòi hỏi một nhân lực làm những công việc thủ công một cách cần cù chăm chỉ, họ sẽ cần đến ESTJ. <br />ESTJ luôn xem chừng thế giới xung quanh - mặc dù họ không thích những người có suy nghĩ phản biện, họ vẫn có một nguyên tắc cơ bản là cái gì có thể chấp nhận được, cái gì không. ESTJ sẵn sàng nhảy vào những dự án phức tạp nhất, cải tiến các kế hoạch hành động và sắp xếp các chi tiết, làm cho những công việc phức tạp trở nên dễ dàng hơn rất nhiều. <br />Tuy nhiên, ESTJ không tồn tại một mình, và họ mong mỏi nhận được sự đáng tin cậy và đạo đức nghề nghiệp - đáp lại những gì họ cống hiến - nhóm người này luôn làm những gì họ đã hứa, và nếu như cấp dưới hay bạn bè họ đáp lại họ bằng sự lười biếng hay dối trá, họ không ngần ngại nổi trận lôi đình. Giống như các nhóm nhân cách khác trong nhóm Thực thi (Sentinel), ESTJ không cứng nhắc vì họ bướng bỉnh, mà họ làm vậy vì họ tin vào những giá trị của một hệ thống đã được xây dựng nên.</p>
+                <h3>Hình tượng ESTJ</h3>
+                    <p><blockquote>ESTJ là một công dân điển hình trong xã hội hiện đại, họ giúp đỡ hàng xóm, tôn trọng luật pháp, cố gắng khiến cho mọi người cùng tham gia với họ và sắp xếp những gì thuộc về mình.</blockquote>Thách thức chính với ESTJ là nhận ra việc mọi người không đi chung một con đường. Một người lãnh đạo cần phải biết thế mạnh của từng cá nhân, và cố gắng mang những ý kiến của từng cá nhân ra cho tập thể. Theo cách này, ESTJ hoàn toàn có khả năng lãnh đạo trong những công việc cộng đồng.</p>
+            <div class="panel-body">
+                <h2 id="2">Điểm mạnh, Điểm yếu</h2>
+            </div>
+                <h3>Điểm mạnh:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/sentinels_Executive_ESTJ_strengths.png" />
+                    <ul><li>Cống hiến</li> <li>Ý chí mạnh mẽ</li><li>Thẳng thắn và trung thực</li> <li>Trung thành, Nhẫn nại và Đáng tin cậy</li> <li>Thích tạo ra các trật tự</li> <li>Người tổ chức tuyệt vời</li></ul>
+                <h3>Điểm yếu:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/sentinels_Executive_ESTJ_weaknesses.png" />
+                    <ul><li>Cứng nhắc</li> <li>Không thích thay đổi để phù hợp</li> <li>Thích phán xét</li> <li>Quá chú trọng vào danh vọng xã hội</li> <li>Không biết cách diễn đạt cảm xúc</li> <li>Không biết cách nghỉ ngơi</li></ul>
+            <div class="panel-body">
+                <h2 id="3">Tình yêu</h2>
+            </div>
+                <p>ESTJ đi theo con đường thông thường trong tình yêu - hẹn hò - tình cảm bền vững - đám cưới. Họ thẳng thằn và trung thực, ESTJ sẽ nói rõ luôn họ là ai,, họ thích gì và họ muốn gì ngay từ đầu, và đi theo kế hoạch đó đến cuối cùng. Nếu như nửa kia đáp ứng tiêu chuẩn của họ, họ chắc chắn có một chuyện tình cảm bền vững.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Executive_ESTJ_romantic_relationships.png" />
+                <h3>Cơ hội để thay đổi</h3>
+                    <p>Thay đổi bản thân luôn là ưu tiên đối với ESTJ, và mỗi mục tiêu là một điểm chuyển hướng. Nhưng việc thay đổi này không hề tác động gì đến tình yêu của họ. <br />Luôn có những thách thức, nhưng ESTJ luôn quan tâm đến chuyện tình cảm của mình và sẵn sàng bỏ một lượng lớn công sức vào đó, chắc chắn rằng tình cảm đó vững bền. Điều này nghe có vẻ lỗi thời, và thật sự ESTJ không phải tuýp người tự nhiên và khó đoán, nhưng họ thích đi chơi và có những khoảnh khắc đáng nhớ bên người yêu. Các sự kiện xã hội có lẽ là lựa chọn tốt nhất của họ, và trong khi việc này lặp đi lặp lại, họ luôn rất nhiệt tình và tràn đầy năng lượng, giúp mọi thứ vẫn như mới mẻ. <br />ESTJ có đời sống tình dục tạm ổn, họ không đổi mới với các ý tưởng thi vị hay hoang dã, tuy nhiên họ lại luôn có một sức sống đặc trưng.<br />Điều này cũng là một thách thức trong chuyện tình cảm của ESTJ. Những giây phút thật sự lay động đã ít, ESTJ lại luôn dùng những lời lẽ lòng vòng để diễn đạt, khiến người khác cảm thấy chúng như vô nghĩa, điều này lại càng nguy hiểm khi nửa kia của họ là một người nhạy cảm.</p>
+                <h3>Phải trả giá để có sự an toàn</h3>
+                    <p>ESTJ giải quyết xung đột bằng những cách tiếp cận hợp lý, từ góc độ lý trí, và cảm xúc và tình yêu bị bỏ qua khá nhiều. Cách tiếp cận này có thể phần lớn được tán thành, nhưng cũng không ít lần người kia không thích nó. Trong tất cả các kỹ năng xã hội, ESTJ đặc biệt kém việc đọc cảm xúc của người đối diện, và ESTJ rất cần phải thay đổi điều này. <br />ESTJ là những người tự tin và nguyên tắc. Nhưng chính vì vậy họ cũng rất cứng đầu, với niềm tin vững chắc là họ đúng, điều này hoàn toàn có thể làm tổn thương cảm xúc mong manh của những tâm hồn nhạy cảm hơn. ESTJ hợp nhất với những người có tính cách Cảm quan - Observant (S) để giảm thiểu các rào cản ngôn ngữ, với một hoặc hai tính cách khác biệt để cân bằng và phát triển.</p>
+            <div class="panel-body">
+                <h2 id="4">Tình bạn</h2>
+            </div>
+                <p>ESTJ là một người bạn thân cận, truyền thống, họ thích sự trung thành và chia sẻ các giá trị. Tình bạn đối với họ thường bắt đầu từ những việc làm hàng ngày, những nhân tố vên ngoài hơn là từ sự thông minh và bí ẩn khi so với nhóm Phân tích (Analyst) và Ngoại giao (Diplomat). Tuy nhiên tình bạn của họ kéo dài khá lâu nhờ những nhân tố gắn kết lâu bền.</p>
+                <h3>Không có gì làm thì thật buồn chán...</h3>
+                    <p>Trong quan hệ bạn bè, ESTJ tỏ ra là một người nhiệt tình và hướng ngoại, luôn vui vẻ trong thể thao hay hoạt động dã ngoại. Họ thỉnh thoảng đi sa đà, nhưng cũng vì mục đích gắn kết mọi người. Bạn bè của nhóm này không bao giờ hết lời mời đến các hoạt động, từ trận đá bóng, đến cắm trại cuối tuần, hay tiệc BBQ</p>
+                    <img src="https://www.16personalities.com/images/types/scenes/sentinels_Executive_ESTJ_friendships.png" />
+                    <p>ESTJ đi tìm một tình bạn từ sự tin cậy và sự trung thành. Vì có một lối tư duy nhanh và yêu vận động, họ coi việc "ngồi không" là một việc buồn chán. Họ thường là linh hồn trong các bữa tiệc, cùng lúc cũng đảm bảo là bạn bè họ có một khoảng thời gian vui vẻ. <br />Việc đi chơi cùng đám bạn cũ không giới hạn họ có thểm bạn mới, họ luôn có xu hướng tìm kiếm và kết bạn, với những người giống họ, cùng có sự tôn trọng cho truyền thống.</p>
+                <h3>... Cái vui là có nhiều việc để làm mà chẳng làm gì cả</h3>
+                    <p>Thách thức với ESTJ không phải làm tìm những cuộc vui, mà là tìm kiếm sự đa dạng trong tình bạn. Họ không buồn nghe những ý kiến trái chiều, đừng nói là làm bạn với những người có ý kiến đó. <br />Làm quen với luồng tư tưởng mới chẳng có hại gì. Giống như họ nghĩ nhóm người "tự kỷ" ngồi bên máy tính tối ngày cần ra ngoài nhiều hơn, họ cũng cần phải bước ra khỏi vòng tròn của những định kiến và sự tin tưởng mù quáng của bản thân.</p>
+            <div class="panel-body">
+                <h2 id="5">Tình cảm gia đình</h2>
+            </div>
+                <p>Một vòng tròn "làm việc chăm chỉ, truyền thống, sự kính trọng" có lẽ là miêu tả tốt nhất cho quan hệ giữa ESTJ và con cái họ. Nếu cần tưởng tượng, bạn hãy nghĩ tới khuôn mẫu cha mẹ của thập niên 50 - khô khan, là người bảo vệ cho truyền thống gia đình với những điều kiện và luật lệ. Họ muốn con cái của họ cũng là những công dân trong thời đại mới - lịch sự và đáng kính. <blockquote>ESTJ sống rất có trách nhiệm, và luôn quan niệm cá nhân nên hết mình vì gia đình và xã hội.</blockquote>Quan niệm này ngay lập tức được áp dụng vào con cái họ, hãy có trách nhiệm với bản thân: tự rửa bát, tự lau phòng, đi ngủ đúng giờ,... làm theo lệnh...</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Executive_ESTJ_parenthood.png" />
+                <p>Sự cứng nhắc này là một thử thách khi con cái của họ bước vào độ tuổi nổi loạn. ESTJ giữ nguyên nguyên tắc, quan hệ sếp - nhân viên giữa họ và trẻ là không thay đổi, và họ muốn trẻ phục tùng mệnh lệnh và cấu trúc do họ đặt ra. ESTJ xây dựng một môi trường bất biến, an toàn, không cho con trẻ vượt qua, và không có ngoại lệ. <br />ESTJ không cần con họ hoàn hảo - họ khá thực dụng - và chỉ mong con cái họ lớn lên thành một người có trách nhiệm, được tôn trọng. Nhưng cá nhân ESTJ còn mong con họ có ý chí vững vàng, điều này chỉ đạt được khi trẻ có cơ hội tự quyết định, và đối mặt với những khó khăn trong việc đi theo con đường chúng đã chọn, dù tốt hay xấu, nhưng vẫn có sự theo dõi và tình yêu của cha mẹ.</p>
+                <h3>Vẫn còn nhiều khoảng trống để thở</h3>
+                    <p>ESTJ có thể gặp rất nhiều khó khăn, cũng như gây ra rất nhiều khó khăn cho con cái của họ. Tuy tiêu chuẩn của họ cao, nhưng con cái họ lại biết mình cần phải làm gì, và phần lớn chúng sẽ nhận ra sự hy sinh mà cha mẹ đã dành cho chúng.</p>
+            <div class="panel-body">
+                <h2 id="6">Con đường sự nghiệp</h2>
+            </div>    
+                <p>Con đường công danh của nhóm này khá rõ ràng và dễ hiểu. Họ chọn những công việc ở những nơi có thể cho họ cơ hội thực thi những luật lệ được định sẵn. ESTJ cũng có sự tôn trọng cho truyền thống, ổn định và an toàn, những đức tính giúp họ tiến xa hơn trong công việc.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Executive_ESTJ_career_path.png" />
+                <p>ESTJ rất trung thành, họ chọn lựa một ông chủ và làm việc cho người ta càng lâu càng tốt. Các công việc trong ngành công an, quân đội, bệnh viện, hay pháp luật đều có bóng dáng của họ. <br />ESTJ là hình ảnh của một công dân ưu tú, và họ cố gắng duy trì hình ảnh này suốt quãng đời làm việc của họ. Điều này giúp họ tiến lên vị trí quản lý - và họ được công nhận ở bất kỳ một lĩnh vực nào. Ở họ cũng có những tốt chất xây dựng nên một người quản lý hiệu quả. <br />ESTJ là những lãnh đạo thét ra lửa, họ ghét sự vô tổ chức, thiếu năng lực, lười biếng hay đặc biệt nhất là dối trá. Khi ai đó vượt qua ranh giới này, ESTJ không do dự hiển thị sự không hài lòng của họ. Nhóm này cũng là những kiểm toán, nhân viên tài chính, quản lý kinh doanh trời sinh.</p>
+                <h3>Tự tin giành thắng lợi</h3>
+                    <p>Chăm chỉ, tự truyền cảm hứng cho bản thân cũng là những mặt mạnh của ESTJ, khiến họ thành những người quản lý kinh doanh xuất sắc, dù ở vị trí bán lẻ, làm văn phòng hay là một đại lý độc lập, ESTJ gắn bó với các kế hoạch đã định cho tới khi thành công, dù lớn hay nhỏ. Họ rất cẩn thận ngăn nắp, nên việc giấy tờ cho khách hàng sẽ trở nên dễ dàng hơn thay vì một câu đó thật sự. Các đức tính này giúp ESTJ tiến xa trong các công việc cần một người có khả năng giữ trật tự mọi thứ xung quanh.</p>
+            <div class="panel-body">
+                <h2 id="7">Thói quen làm việc</h2>
+            </div>    
+                <p>ESTJ tạo dấn ấn ở nơi làm việc, dù là thuộc cấp, đồng cấp hay trên cấp, ESTJ luôn tạo ra các mệnh lệnh, thực thi các luật lệ, và làm việc để đảm bảo rằng công việc của họ và những người quanh họ có tiêu chuẩn cao nhất. Không lòng vòng trốn tránh trách nhiệm là cách nhanh nhất để có được sự tôn trọng của họ.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Executive_ESTJ_workplace_habits.png" />
+                <h3>Khi còn thuộc cấp</h3>
+                    <p>ESTJ làm việc chăm chỉ và theo đúng lý thuyết, mặc dù họ rất kém linh hoạt, nhưng khi công việc đó chưa phát triển đủ sơ đồ logic để xử lý các vấn đề, họ sẽ cởi mở với những cách làm tốt hơn. Tuy nhiên, ESTJ không có khả năng tự tìm hướng đi mới - tuân thủ các quy tắc và hoàn thành nhiệm vụ là mối quan tâm hàng đầu của họ. <br />ESTJ nổi tiếng với sự cống hiến và trung thành của họ, tuy nhiên nó còn phụ thuộc vào việc họ được coi trọng ra sao. Nhóm này sẵn sàng cất tiếng nói, nếu cấp trên của họ là những người kém logic, không trung thực, hoặc hèn nhát.</p>
+                <h3>ESTJ đồng nghiệp</h3>
+                    <p>ESTJ tận hưởng sự hối hả và nhộn nhịp ở nơi làm việc. Trung thực, thân thiện và thực tế, ESTJ trở thành những người kết nối tuyệt vời, họ liên kết với những người khác để hoàn thành công việc. Đường tắt là thứ không tin cậy được, và ESTJ thường không còn tôn trọng những người cố gắng thúc đẩy công việc hay sự thăng tiến qua những con đường tắt. <br />ESTJ thích trở thành một phần của tổ chức lớn hơn mà họ làm việc ở đó. Họ sẵn sàng nghe những lời phê bình, với mục đích cải thiện tính hiệu quả cho bản thân, và luôn quan tâm những người xung quanh để đảm bảo cả nhóm mang lại kết quả mong muốn.</p>
+                <h3>Lúc làm lãnh đạo...</h3>
+                    <p>ESTJ thích được tổ chức mọi người thành một đội hiệu quả, tuy họ làm việc đó hơi thái quá, xen vào từng chi tiết nhỏ nhất, nhưng với ý chí mạnh mẽ, ESTJ cũng bảo vệ cả nhóm khỏi sự điều hướng hay cắt giảm nhân viên. Những kẻ lười biếng và kém đạo đức nghề nghiệp sẽ không được họ chấp nhận trong bất kỳ trường hợp nào. <br />ESTJ thi thoảng mong muốn quyền lực của họ được tuân thủ vô điều kiện, việc đòi hỏi quyền lợi hay các ý tưởng trái chiều của cấp dưới sẽ bị xử lý theo luật. Cho dù đó là luật lệ công ty hay phép tắc do họ đặt ra, ESTJ đều nghĩ cho sự an toàn chung của truyền thống nơi làm việc. Tiêu chuẩn của nhóm người này rất rõ ràng, để lại rất ít không gian cho sự thay đổi hoặc sự khoan dung.</p>
+            <div class="panel-body">
+                <h2 id="8">Tổng kết</h2>
+            </div>
+                <p>Rất ít cá tính có ý chí mạnh mẽ như ESTJ. Họ có kỹ năng quản lý và đáng tin cậy, ESTJ có thể tạo ra và duy trì tốt một hệ thống an toàn và vững chãi cho họ và những người xung quanh. Sự cống hiến tận tâm của ESTJ có giá trị trong rất nhiều lĩnh vực của cuộc sống.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Executive_ESTJ_conclusion.png" />
+        </div>
+    </div>
+{% endblock %}

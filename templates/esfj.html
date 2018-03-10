@@ -1,0 +1,110 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    <title>ESFJ</title>
+{% endblock %}
+
+{% block style %}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/resultpages.css') }}">
+{% endblock %}
+
+{% block body %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#1">Giới thiệu</a></li>
+            <li><a href="#2">Điểm mạnh, Điểm yếu</a></li>
+            <li><a href="#3">Tình yêu</a></li>
+            <li><a href="#4">Tình bạn</a></li>
+            <li><a href="#5">Tình cảm gia đình</a></li>
+            <li><a href="#6">Con đường sự nghiệp</a></li>
+            <li><a href="#7">Thói quen làm việc</a></li>
+            <li><a href="#8">Tổng kết</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-lg-2 col-md-3 col-sm-3">
+            <!--for something else-->
+        </div>
+        <div class="col-lg-10 col-md-9 col-sm-9 fill">
+            <img class="img-responsive" src="https://storage.googleapis.com/neris/public/images/headers/esfj-personality-type-header.png" />
+            <div class="panel-heading">
+                <h1>Nhóm ESFJ (Nhà Cung Cấp)</h1>
+            </div>
+                <p>Những người có lối sống cộng đồng, cực kỳ quan tâm tới người khác, và luôn sẵn lòng giúp đỡ</p>
+            <div class="panel-body">
+                <h2 id="1">Giới thiệu</h2>
+            </div>
+                <p>ESFJ rất nổi tiếng, nhóm này chiếm tới 12% dân số. Ở trong trường cấp ba, họ là đội trưởng đội cổ động, hậu vệ, những người lên tiếng nói, đứng ở giữa sân khấu và dẫn dắt đội của họ đến với thành công. Khi ra đời, ESFJ tiếp tục việc giúp đỡ những người xung quanh họ, tổ chức các buổi tiệc khu phố, và làm mọi điều để những người xung quanh cảm thấy vui vẻ. <blockquote>ESFJ là những người sống rất theo đám đông, họ thích được cập nhật xu thế mới, và chạy theo những gì bạn bè họ đang làm.</blockquote></p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Consul_ESFJ_introduction.png" />
+                <p>Những câu chuyện khoa học hay chính trị không làm nhóm này quan tâm, ESFJ thích thời trang và vẻ ngoài của họ, địa vị xã hội và việc đứng trước đám đông. Các vấn đề thực tế hay các tin đồn là điều họ thích nghe, tuy vậy, ESFJ thường sử dụng quyền lực vì những mục đích tốt đẹp.</p>
+                <h3>Họ tôn trọng lãnh đạo</h3>
+                    <p>ESFJ thật sự rất trách nhiệm trong việc giúp đỡ và làm những điều có ích, khác với nhóm Ngoại giao, ESFJ không đặt mục tiêu đạo đức từ những triết lý hay truyện cổ tích, họ tin vào truyền thống và luật pháp, tôn trọng quyền lực và các điều lệ. ESFJ cần nhớ rằng, mỗi người có một suy nghĩ và cách nhìn nhận khác nhau, và cái họ coi là đúng có thể không hẳn đã đúng. <br />ESFJ thích được phục vụ người khác, tất cả các vị trí giúp họ làm những việc có ích, trong lúc họ được tôn trọng. ESFJ là những người cha người mẹ, người chồng người vợ tận tâm và trung thành. ESFJ tuân thủ luật pháp, và cố hết sức để đạt được một chút quyền lực, dù là trong nhà hay ngoài xã hội.</p>
+                <h3></h3>
+                    <p>Bạn luôn nhận ra họ trong các buổi tiệc - họ luôn nói chuyện và cười đùa với bất kỳ ai! ESFJ thích các câu truyện về tình cảm và cuộc sống của bạn bè họ, nhớ các chi tiết và luôn nói chuyện với sự nhạy cảm và tình cảm ấm áp. Nếu mọi chuyện không như mong đợi, ESFJ luôn là người đem lại cân bằng và hòa hợp cho cả nhóm. <br />ESFJ không thích các cuộc cãi vã, họ dành phần lớn năng lượng giúp duy trì trật tự, và thích tổ chức các sự kiện hoặc hoạt động gặp mặt tự nhiên. Nhóm người này dành phần lớn công sức vào những sự kiện mà họ tổ chức, và rất dễ tự ái nếu ý kiến của họ không được đồng tình hoặc chấp nhận. <br />Việc người khác không đồng ý với mình là điều bình thường trong cuộc sống, và ESFJ cần phải nhận ra điều này. Điều ESFJ làm tốt nhất là: trở thành một vai chính, chăm sóc bất cứ thứ gì mà họ có quyền lực và trách nhiệm với nó, và được mọi người công nhận những gì họ làm.</p>
+            <div class="panel-body">
+                <h2 id="2">Điểm mạnh, Điểm yếu</h2>
+            </div>
+                <h3>Điểm mạnh:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/sentinels_Consul_ESFJ_strengths.png" />
+                    <ul><li>Các kỹ năng thực tế</li> <li>Có ý thức trách nhiệm</li> <li>Rất trung thành</li> <li>Nhạy cảm và Ấm áp</li> <li>Giỏi việc kết nối mọi người</li></ul>
+                <h3>Điểm yếu:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/sentinels_Consul_ESFJ_weaknesses.png" />
+                    <ul><li>Luôn lo lắng người khác nghĩ gì về mình</li> <li>Không linh động</li> <li>Sợ cải tiến và phát triển</li> <li>Dễ tự ái</li> <li>Luôn cần người khác chú ý</li> <li>Không quan tâm đến bản thân</li></ul>
+            <div class="panel-body">
+                <h2 id="3">Tình yêu</h2>
+            </div>
+                <p>Chuyện tình cảm đóng một vai trò rất quan trọng với ESFJ, không có một mối quan hệ nào khác cho họ khả năng được cống hiến và giúp đỡ người khác hơn mốt quan hệ này, và việc thấy một tình cảm ổn định và bền vững là điều vô cùng tốt đẹp với họ. <blockquote>ESFJ không thích chơi bời - họ cần biết nửa kia sẽ luôn bên cạnh họ, và luôn giúp đỡ họ. Chuyện hôn nhân gia đình luôn là đích đến cuối cùng của nhóm người này.</blockquote>ESFJ luôn nghiêm túc trong chuyện tình cảm, và họ luôn cố làm cả hai hài lòng, từ việc hiểu nhau hơn đến việc tôn trọng ý kiến và giúp đỡ nhau giành mục đích cuối cùng. ESFJ rất muốn biết họ đang được yêu và tôn trọng.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Consul_ESFJ_romantic_relationships.png" />
+                <h3>Ai cũng có lúc sai lầm...</h3>
+                    <p>ESFJ rất dễ tự ái, họ không thích các cuộc cãi vã, điều này khiến cho việc tình cảm gặp rất nhiều khó khăn khi gặp những vấn đề bất ngờ. ESFJ sẽ rất đau đớn nếu biết người họ yêu không tôn trọng ý kiến và mơ ước của họ, nhóm người này có thể bề ngoài rất mạnh mẽ và tự tin, nhưng họ cần người họ yêu luôn đứng đằng sau họ. <br />Thật không may, ESFJ trẻ tuổi và thiếu chín chắn thường thiếu đi sức mạnh và trí tuệ bên trong để đứng vững, họ thường rất phiền hà, luôn mồm nói về những chuyện rắc rối của họ và cầu mong người kia an ủi. Điều này chẳng tốt chút nào - không chỉ làm người khác bực mình, mà còn dễ làm tan vỡ chuyện tình cảm, và càng làm giảm sự tự trọng của ESFJ.</p>
+                <h3>... Nhưng quan trọng nhất là bạn học được gì từ sai lầm đó</h3>
+                    <p>ESFJ là những người nồng ấm và chung thủy, và họ mong được đền đáp bằng việc được coi trọng và được tin tưởng. Họ giỏi các công việc thực tế như quản lý tiền bạc hay quản lý thời gian, và luôn vui vẻ nhận lấy trách nhiệm đó vì muốn quan tâm đến người họ yêu. ESFJ luôn cần biết họ đang đảm bảo chuyện tình cảm của hai người phát triển theo hướng đi lên, và nửa kia hiểu và tôn trọng họ. <br />ESFJ thường theo những luật lệ và truyền thống trong chuyện hẹn hò. Khi chuyện tình cảm bắt đầu có liên quan đến chuyện tình dục, họ vẫn tiếp tục đi theo các luật lệ truyền thống. Tuy nhiên, vì nhóm người này khá nhạy cảm và có một sức khỏe tốt, nói chung họ vẫn là một người tình tuyệt vời. Họ thích làm đối phương hài lòng, và chuyện tình dục là một cách để đạt được điều đó. Khi cả hai người đã thấu hiểu nhau hơn, ESFJ cũng khá cởi mở trong việc trải nghiệm những cảm giác mới mẻ, và nửa kia luôn là người dẫn dắt họ. <br />ESFJ có một số yêu cầu trong chuyện tình cảm, và có một số nhóm tính cách đáp ứng nhu cầu đó khá tốt, nhìn tổng thể, người họ yêu nên có tính Cảm quan - Observant (S), nhưng nên sống nội tâm như nhóm Hướng nội - Introverted (I), hoặc có thêm một tính cách khác biệt nữa để giúp họ sống lý trí và cởi mở với những tình huống mới hơn nữa.</p>
+            <div class="panel-body">
+                <h2 id="4">Tình bạn</h2>
+            </div>
+                <p>ESFJ là người sống hướng ngoại, họ thích có nhiều bạn và dành một phần nhiều thời gian và sức lực để duy trì các mối quan hệ này. Trung thành và ấm áp, ESFJ luôn bảo vệ bạn bè họ trong mọi trường hợp, họ khích lệ và giúp đỡ bạn bẻ rất nhiều.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Consul_ESFJ_friendships.png" />
+                <p><blockquote>ESFJ là những người tôn trọng truyền thống, họ coi việc giúp đỡ bạn bè như một nhiệm vụ nhiều hơn sự thú vị trong đó.</blockquote>ESFJ luôn nổi bật trong nhiều tình huống, họ vui vẻ, thích các cuộc nói chuyện phiếm. ESFJ hết lòng bảo vệ bạn bè, và họ cũng mong nhận được điều tương tự. ESFJ nếu thấy bạn nói xấu họ sau lưng. <br />ESFJ luôn tin tưởng và sẵn sàng bảo vệ bạn bè họ, nhóm tính cách này có thể mở rộng nhóm bạn lên rất nhiều nếu chỉ cởi mở hơn với tất cả mọi người, thay vì phán xét người khác. Điều quan trọng với ESFJ, hay cũng như với tất cả mọi người, là cố gắng không cách ly cách nghĩ và cách nhìn của mình với mọi người, cố gắng hiểu càng nhiều người càng tốt.</p>
+                <h3>Ai cũng có thể là con mồi, hoặc là kẻ đi săn</h3>
+                    <p>ESFJ rất nhạy cảm trong việc nhận biết động cơ của người khác. Họ đôi khi sử dụng khả năng này để thao túng bạn bè, vì nó thú vị hơn nhiều là xây dựng một tình bạn tốt đẹp, và việc hiểu động cơ người khác là một cách tuyệt vời để đạt được điều đó. Tuy nhiên, ESFJ thường chỉ sử dụng kỹ năng này của họ vì mục đích tốt đẹp hơn. <br />Nguồn năng lượng và các kỹ năng xã hội khiến ESFJ có vị trí và rất nhiều bạn bè, khả năng giúp đỡ và sự tận tâm của nhóm người này khiến tình bạn của họ luôn bền vững.</p>
+            <div class="panel-body">
+                <h2 id="5">Tình cảm gia đình</h2>
+            </div>
+                <p>Nhạy cảm nhưng cứng rắn, ESFJ có một cơ hội tuyệt vời để thể hiện sự ấm áp, tận tụy và các khả năng của họ khi trở thành cha mẹ. Họ có thể đặt ra các luật lệ mà không sợ việc quá xét nét, sử dụng sự tận tâm và sự giúp đỡ để làm dịu đi những khác biệt về suy nghĩ. <blockquote>Có con là một trong số những thành công của cuộc đời ESFJ, họ trân trọng từng phút giây bên con.</blockquote>Ngay từ đầu, ESFJ đã đảm bảo trẻ luôn hạnh phúc và an toàn. ESFJ thích giúp đỡ con cái. Và gia đình là một điều vô cùng quan trọng với họ, có con là một khởi đầu không thể hoàn hảo hơn trong mối quan hệ gia đình.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Consul_ESFJ_parenthood.png" />
+                <h3>Kiểm soát những khó khăn khi trẻ lớn lên</h3>
+                    <p>Khi trẻ lớn lên và bắt đầu khám phá nhiều hơn, ESFJ cũng dành cho chúng sự quan tâm và tình yêu lớn hơn, và đôi khi họ quá bảo vệ con mình. ESFJ không chỉ giữ con họ an toàn theo nghĩa đen, họ sắp xếp các cuộc hẹn hò, trại hè hay các hoạt động khác - tất cả khiến cho con họ không thể trưởng thành về cảm xúc cũng như có một cuộc sống độc lập hơn. <br />ESFJ coi trọng sự hòa hợp và sự ổn định, và họ thường chọn đường vòng trong việc nuôi dạy con cái. Nhưng khi họ cần thẳng thắn với con, họ mong muốn những lời nói ra được trẻ tôn trọng. Là người theo chủ nghĩa truyền thống, ESFJ coi tình cảm cha mẹ - con cái như một hợp đồng giấy trắng mực đen, với vai trò của họ ở vị trí ra lệnh.</p>
+                <h3>Việc xây dựng nhân cách là cả một chặng đường dài</h3>
+                    <p>Khi con trẻ bước vào tuổi vị thành niên, ESFJ có thể quá nhạy cảm, sợ con cái rời xa, đôi khi họ cố kéo dài sự bảo vệ nhất có thể. Hãy nhớ rằng khi con cái bắt đầu tự lập, đó là vì cha mẹ chúng đã thành công trong việc chuẩn bị cho chúng giai đoạn tiếp theo của cuộc đời, một thắng lợi mà ESFJ có thể tự hào. <br />Con cái của ESFJ sẽ luôn coi trọng sự nhạy cảm và tình yêu ấm áp từ cha mẹ chúng, và đến khi họ có gia đình, họ càng trân trọng hơn khi con họ có những người ông người bà yêu thương và chăm sóc vô điều kiện.</p>
+            <div class="panel-body">
+                <h2 id="6">Con đường sự nghiệp</h2>
+            </div>
+                <p>ESFJ có khả năng diễn đạt tốt, có sự thực tế và kỹ năng mềm tốt, sự nghiệp của họ sẽ thành công nếu họ biết tận dụng các ưu điểm này. ESFJ có kỷ luật, thích tạo ra trật tự trong nơi làm việc, và làm việc tốt nhất trong môi trường phân cấp rõ ràng. Các công việc trong các công ty, tập đoàn đều không phải là thử thách lớn với nhóm người này.</p>
+                <h3>Kết hợp, không phải cãi cọ</h3>
+                    <p>ESFJ hợp với môi trường làm việc một cách tự nhiên, các kỹ năng thực tế khiến họ trở thành các kế toán tuyệt vời - dù cho họ thích trở thành kế toán cá nhân, giúp đỡ mọi người và trò chuyện với họ trực tiếp, thay vì làm một kế toàn công ty với sổ sách và ngồi sau một cái bàn giấy.</p>
+                    <img src="https://www.16personalities.com/images/types/scenes/sentinels_Consul_ESFJ_career_path.png" />
+                    <p>Công việc phân tích thuần túy có vẻ quá nhàm chán với nhóm người này - họ cần làm việc với con người hoặc các trả lời tình cảm để thực sự hài lòng với công việc của họ. Là những người biết cách lắng nghe và nhiệt tình, ESFJ là một nhà cung cấp các dịch vụ xã hội hoặc thiết bị y tế thành công. Việc dạy học cũng là một lựa chọn không tồi, ESFJ thích các đặc quyền, nhưng sự thân thiện khiến họ không vượt quá các đặc quyền được người khác trao cho. <blockquote>Công việc yêu thích của ESFJ đều cho họ một thứ: được công nhận và được giúp đỡ người khác.</blockquote>ESFJ rất thánh thiện, và họ khó hài lòng khi không thể làm điều gì có giá trị với người khác. Đây thường là một lực đẩy vô hình sau lưng họ, khiến những công việc tôn giáo và tư vấn luôn là ưu tiên của ESFJ. <br />Bất kể là công việc gì, ESFJ luôn hài lòng khi họ bận rộn với vị trí xã hội, các suy nghĩ thực tế và kỹ năng để hướng người khác không chỉ làm việc tốt mà còn thật sự yêu công việc họ làm.</p>
+            <div class="panel-body">
+                <h2 id="7">Thói quen làm việc</h2>
+            </div>
+                <p>ESFJ luôn có một đích đến rõ ràng thể hiện qua mọi vị trí trong công việc, họ khát khao một trật tự và hòa hợp trong môi trường làm việc, và họ sử dụng các kỹ năng mềm của bản thân để đảm bảo mọi người hiểu được trách nhiệm của mình và cùng hoàn thành công việc. ESFJ luôn vui vẻ ngay cả trong một môi trường phân cấp, dù ở vị trí nào, họ cũng đều tôn trọng cấp trên, cùng luật lệ và tiêu chuẩn đã được đề ra.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Consul_ESFJ_workplace_habits.png" />
+                <h3>Khi còn thuộc cấp</h3>
+                    <p>ESFJ luôn nhẫn nại, làm việc chăm chỉ và hiệu quả. Là những người tôn trọng cấp trên và các luật lệ, ESFJ có thể gặp khó khăn nếu môi trường làm việc quá tự do, nhưng lại thích một môi trường làm việc trong khuôn khổ. Các công việc hàng ngày không phải là vấn đề đối với họ, và sự cống hiến và trung thành của ESFJ nhận được sự đánh giá cao từ phía lãnh đạo.</p>
+                <h3>ESFJ đồng cấp</h3>
+                    <p>Làm việc nhóm không phải là một việc khó khăn với ESFJ, họ thường xuyên kiếm bạn đồng nghiệp, và sẵn sàng ra tay giúp đỡ khi cần. Là những người kết nối tốt, ESFJ luôn là người "biết một người phù hợp" để hoàn thành dự án kịp thời. Mặt khác, ESFJ rất cần các nhóm làm việc, vì họ là con người xã hội, bị kẹt trong các mớ giấy tờ hàng ngày khiến họ trở nên mệt mỏi. <br />ESFJ có một điểm yếu là dễ tự ái, họ rất dễ stress, và việc bị từ chối là một quả tạ đè lên tâm trí họ. Lúc này, ESFJ rất cần các bạn đồng nghiệp giúp đỡ khôi phục lại sự tự tin cho bản thân.</p>
+                <h3>Lúc làm lãnh đạo...</h3>
+                    <p>ESFJ thích các trách nhiệm tổ chức các tình huống xã hội, và thích quản lý người khác. Khi làm trưởng nhóm, ESFJ sẽ tìm ra cách khiến mọi người có cảm giác mình là người trong cuộc, tập hợp mọi người và làm dịu các mối quan hệ với mục tiêu là hoàn thành công việc. <br />ESFJ cũng là người tôn trọng các truyền thống và thích các kết cấu phân cấp phân quyền. Nếu có ai đứng ra thách thức quyền lực của họ, ESFJ rất dễ mất kiểm soát, và phản ứng thái quá. ESFJ là những người nhạy cảm về vị trí xã hội của họ và không thích cãi cọ, họ thích những trường hợp mà mọi người đều hiểu vị trí của bản thân, và khi mọi việc đều ở trật tự của nó, ESFJ là một nhà quản lý hiệu quả và được ngưỡng mộ.</p>
+            <div class="panel-body">
+                <h2 id="8">Tổng kết</h2>
+            </div>
+                <p>Rất ít người vừa thực tế vừa quan tâm như ESFJ. Họ rất giởi tạo lập và duy trì một môi trường an toàn, thân thiện và bền vững cho họ và những người xung quanh. Sự cống hiến của họ vô giá trong rất nhiều lĩnh vực.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/sentinels_Consul_ESFJ_conclusion.png" />
+        </div>
+    </div>
+{% endblock %}

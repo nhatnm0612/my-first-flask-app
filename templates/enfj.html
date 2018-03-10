@@ -1,0 +1,112 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    <title>ENFJ</title>
+{% endblock %}
+
+{% block style %}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/resultpages.css') }}">
+{% endblock %}
+
+{% block body %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#1">Giới thiệu</a></li>
+            <li><a href="#2">Điểm mạnh, Điểm yếu</a></li>
+            <li><a href="#3">Tình yêu</a></li>
+            <li><a href="#4">Tình bạn</a></li>
+            <li><a href="#5">Tình cảm gia đình</a></li>
+            <li><a href="#6">Con đường sự nghiệp</a></li>
+            <li><a href="#7">Thói quen làm việc</a></li>
+            <li><a href="#8">Tổng kết</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-lg-2 col-md-3 col-sm-3">
+            <!--for something else-->
+        </div>
+        <div class="col-lg-10 col-md-9 col-sm-9 fill">
+            <img class="img-responsive" src="https://storage.googleapis.com/neris/public/images/headers/enfj-personality-type-header.png" />
+            <div class="panel-heading">
+                <h1>Nhóm ENFJ (Nhà cách mạng)</h1>
+            </div>
+                <p>Là một người lôi cuốn và truyền cảm hứng, có khả năng thu hút người nghe.</p>
+            <div class="panel-body">
+                <h2 id="1">Giới thiệu</h2>
+            </div>
+                <p>ENFJ sinh ra để làm người lãnh đạo, tràn đầy nhiệt huyết và lan tỏa nhân cách. Chiếm khoảng 2% dân số, nhóm này thường là các chính trị gia, huấn luyện viên, giáo viên, những người truyền cảm hứng cho mọi người xung quanh. Với sự tự tin bẩm sinh và khả năng định hướng đối tượng một cách tuyệt vời, ENFJ luôn kiêu hãnh và thích hướng dẫn mọi người cùng làm việc để phát triển bản thân và cộng đồng.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Protagonist_ENFJ_introduction.png"/>
+                <h3>Niềm tin vững chắc vào con người</h3>
+                    <p>Là nhóm người có cá tính mạnh mẽ, ENFJ lan tỏa uy quyền, sự tập trung và lòng vị tha của bản thân, không chùn bước khi cần nói ra một cái gì đó. Họ giao tiếp với người khác một cách dễ dàng, đặc biệt giữa người với người, tính cách Trực quan - Intuitive (N) giúp nhóm này có khả năng kết nối với mọi người, không qua những luận điểm logic và cảm xúc cơ bản. ENFJ dễ dàng nhận ra động cơ của mọi người và có vẻ như không màng dư luận, họ có khả năng đưa ý tưởng vào trong câu truyện một cách trôi chảy và cuốn hút nhất. <br />Khi ENFJ tin tưởng một ai đó, họ thường bị sa đà, trở nên cuồng tín. May thay, niềm tin này thường trở thành hiện thực. Lòng vị tha và uy quyền của ENFJ truyền cảm hứng cho những người xung quanh, nhưng hãy cẩn thận, họ có thể đẩy mọi việc đi quá xa so với dự tính ban đầu. <br />Điều này cũng có mặt xấu của nó, ENFJ có khả năng phân tích và phản xạ cảm xúc rất tốt, nhưng khi quá vấn vương ai đó, họ dường như bị chi phối bởi cảm xúc của người này, thấy các vấn đề của họ trong bản thân mình, cố gắng thay đổi một cái gì đó không hề sai. Khi điều này xảy ra, việc quan trọng nhất đối với ENFJ là phải rút lui, và tự nhận ra điểm khác biệt giữa chính mình và đối tượng.</p>
+                <h3>Không gì có thể làm nản lòng chúng ta, vì chúng ta tin vào sự công bằng</h3>
+                    <p><blockquote>ENFJ là những người can đảm để nói ra những gì cần nói, và làm những điều cần làm, không có gì làm họ hạnh phúc hơn việc được đứng mũi chịu sào, tập hợp và truyền cảm hứng cho nhóm của họ với sự nhiệt tình cuồng dại.</blockquote>ENFJ là những kẻ cuồng tín, và họ sẵn sàng làm bất kỳ điều gì họ tin tưởng. Cũng không lạ khi rất nhiều ENFJ trở thành Tổng thống - nhân cách này luôn mong muốn dẫn đường đến một tương lai tốt đẹp hơn, cho dù điều đó là dẫn dắt một đội bóng, hay là cả một đất nước.</p>
+            <div class="panel-body">
+                <h2 id="2">Điểm mạnh, Điểm yếu</h2>
+            </div>    
+                <h3>Điểm mạnh:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/diplomats_Protagonist_ENFJ_strengths.png" />
+                    <ul><li>Khoan dung</li> <li>Đáng tin</li> <li>Lôi cuốn người khác</li> <li>Vị tha</li> <li>Lãnh tụ bẩm sinh</li></ul>
+                <h3>Điểm yếu:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/diplomats_Protagonist_ENFJ_weaknesses.png" />
+                    <ul><li>Quá lý tưởng</li> <li>Quá nhạy cảm</li> <li>Quên mất bản thân</li> <li>Quá tự trọng</li> <li>Luôn phải vật lộn với các quyết định khó khăn</li></ul>
+            <div class="panel-body">
+                <h2 id="3">Tình yêu</h2>
+            </div>    
+                <p>ENFJ hợp với chuyện tình cảm, ít có nhóm tính cách nào nói lời yêu thương dễ dàng hơn nhóm này. Họ coi việc tình cảm là một việc hệ trọng, và yêu thương sâu đậm. Chả có việc gì khiến ENFJ thích thú hơn việc giúp đỡ những người họ quan tâm, và tình yêu là chỗ lý tưởng để họ thực hiện điều đó.</p>
+                <h3>Họ tiến chậm, nhưng không bao giờ lùi lại</h3>
+                    <blockquote>Ngay kể cả trong giai đoạn hẹn hò, ENFJ không ngại ngùng thể thiện mình là một người quyến luyến tình cảm.</blockquote>
+                    <img src="https://www.16personalities.com/images/types/scenes/diplomats_Protagonist_ENFJ_romantic_relationships.png" />
+                    <p>Tính cách Trực quan - Intuitive (N) giúp họ vượt qua sự thay đổi cảm xúc liên tục trong giai đoạn đầu của tình yêu, tuy nhiên ENFJ vẫn cần dựa vào những lần trò chuyện để hiểu rõ cảm xúc, bắt mạch chuyện tình cảm này bằng những câu hỏi như "Mọi chuyện sao rồi?" hay "Có việc gì mình nên làm không?". Việc này đôi khi quá đà - ENFJ phải nhớ đôi khi việc sai lầm duy nhất là hỏi có gì sai không quá nhiều. <br />ENFJ không đòi hỏi nhiều, họ chỉ cần người họ thương yêu hạnh phúc, và nhìn thấy sự hạnh phúc đó thể hiện ra mặt là đủ. Và việc này trở thành một việc hệ trọng đối với họ, ENFJ hãy cẩn thận, vì đôi khi họ có thể lo lắng cho người kia quá mà quên đi những mong muốn của bản thân.</p>
+                <h3>Không sớm thì muộn, ta đều phải có trách nhiệm</h3>
+                    <p>ENFJ luôn tránh các cuộc cãi vã, đôi khi bằng cách hy sinh bản thân. Họ cũng luôn bất an trong chuyện tình cảm, ENFJ dồn hết tất cả cảm xúc của mình vào trong chuyện này, nên mỗi lần mọi chuyện không ổn, hoặc tệ hơn - đổ vỡ, ENFJ luôn cảm thấy có lỗi và bị phản bội, và mọi cố gắng của họ như đổ xuống sông xuống biển. <br />Nếu nửa kia hiểu và tôn trọng điều này, cũng như quan tâm đến những điều ENFJ cần, họ sẽ có một mối quan hệ lâu dài, hạnh phúc, và cuồng nhiệt. Nhóm tính cách này luôn là một người tình tuyệt vời, có thể hơi cổ điển trong đời sống tình dục, nhưng vẫn luôn cố gắng làm đối phương hài lòng.</p>
+            <div class="panel-body">
+                <h2 id="4">Tình bạn</h2>
+            </div>    
+                <p>Nếu có gì để nói về ENFJ, thì là họ không bao giờ thụ động. Trong khi những nhóm người khác có thể chấp nhận chuyện tình bạn đi lên hay đi xuống, ENFJ bỏ công sức ra duy trì mối quan hệ, họ coi chuyện tình bạn là việc hệ trọng, và không bao giờ để nó tuột mất vì lười biếng hay thiếu quan tâm. <blockquote>Tính triết lý trong mối quan hệ là điều cơ bản với một ENFJ, và trong khi nó hiển hiện ra trong quan hệ đồng nghiệp hay quan hệ tình cảm, nó bộc lộ rõ ràng nhất trong quan hệ bạn bè của ENFJ.</blockquote></p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Protagonist_ENFJ_friendships.png" />
+                <h3>Luôn chăm sóc cho tình bạn, dù nó có nảy nở hay không...</h3>
+                    <p>ENFJ thích giao lưu tìm hiểu người khác, và họ cũng không gặp khó khăn khi nói chuyện với bất kỳ ai. Ngay kể cả khi bất đồng quan điểm, ENFJ vẫn hứng thú với cách nhìn của người khác - cho dù việc làm bạn với những người có cùng chính kiến sẽ dễ dàng hơn, và nhóm Phân tích cùng Ngoại giao sẽ là bạn tốt nhất của ENFJ. Trong nhóm bạn thân, ENFJ sẽ bộc lộ hoàn toàn bản thân họ... <br />Mọi người luôn đề cao những gì ENFJ mang lại cho họ, sự ấm áp, nhẹ nhàng, tinh thần lạc quan cùng với sự hỗ trợ. ENFJ mong muốn trở thành bạn tốt nhất có thể, nó thể hiện ra cái cách mà họ thật sự làm điều này. Không gì làm họ vui hơn nhìn thấy người họ quan tâm sống tốt, và họ sẽ luôn vui vẻ bỏ thời gian và công sức giúp bạn bè thực hiện điều đó.</p>
+                <h3>Luôn là người trưởng thành hơn trong mối quan hệ</h3>
+                    <p>Trong khi ENFJ luôn dang tay giúp đỡ, người khác có thể không làm vậy - trong khi các nhóm tính cách khác chỉ đơn giản là không còn đủ sức tiếp tục, ENFJ có thể cảm thấy bị xúc phạm. Nhưng đến phút cuối cùng, họ vẫn là những người sống trong hiện tại chứ không phải sống cho tương lai, việc nhìn việc những người họ quan tâm thay đổi và trở nên tốt đẹp hơn vẫn luôn là một chiến thắng đối với họ. <br />Tuy nhiên, khi cảm thấy bị xúc phạm, ENFJ sẽ làm tới nơi tới chốn, nếu họ thấy điều đó là cần thiết. ENFJ không nên nghĩ việc này mang tính cá nhân, hãy thả lỏng và đối xử với người kia theo kiểu "bạn thân ai nấy lo"!<br />Cuối cùng thì ENFJ vẫn luôn tìm thấy sự hứng khởi và lạc quan trong các mối quan hệ tốt đẹp với những ai quan tâm và có cùng chính kiến. Và họ sẽ luôn cố gắng đề tình bạn này không bao giờ chia xa.</p>
+            <div class="panel-body">
+                <h2 id="5">Tình cảm gia đình</h2>
+            </div>    
+                <p>Là một vị "lãnh tụ", ENFJ thừa khả năng để làm một bậc phụ huynh tốt, người đưa ra sự cân bằng giữa việc vừa làm người bạn khuyến khích và giúp đỡ con, vừa làm một hình tượng đầy trách nhiệm cho trẻ. Họ không ra lệnh cho con họ làm gì, mà chỉ khuyên nhủ chúng nhẹ nhàng, giúp dũng tự khám phá bản thân và khuyến khích chúng đi theo lựa chọn của chính mình. <blockquote>ENFJ khuyến khích trẻ tự tìm tòi và phát triển, nhận biết và hiểu được giá trị của mọi việc.</blockquote></p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Protagonist_ENFJ_parenthood.png" />
+                <h3>Dù con có là ai, hãy là người tốt trước đã.</h3>
+                    <p>ENFJ nuôi dưỡng và khuyến khích những giá trị cốt lõi, và họ luôn chắc chắn rằng trẻ hiểu được giá trị này, chứ không phải tin tưởng mù quáng. Bất cứ thứ gì cần cho sự phát triển của con trẻ, ENFJ sẽ dành thời gian và công sức thực hiện nó. Có thể trong một vài thời khắc yếu lòng, họ chuyển hướng sang hành vi sai khiến, nhưng hầu hết thời gian ENFJ sử dụng lý tưởng và sự cuốn hút của họ để đảm bảo con họ hiểu rõ vấn đề. <br />Do không thích xung đột, tổ ấm của ENFJ thường cố gắng không có sự cãi cọ. Họ có thể mắng mỏ trẻ, nhưng không bao giờ kỷ luật quá đáng. ENFJ có những tiêu chuẩn cao cho con họ, khuyến khích con họ trở thành người tốt. Tuy nhiên khi việc không mong muốn xảy ra, họ đưa vào các bài học như một nguyên mẫu, rằng tiêu chuẩn đạo đức là bất biến và đứa trẻ cần hiểu điều đó. <br />Khi đứa trẻ bước vào tuổi vị thành niên, và bắt đầu có những sự lựa chọn tới từ bản thân, đôi khi ngược lại những gì ENFJ mong đợi - Trong khi ENFJ vẫn tỏ ra hài hước và nhẹ nhàng, họ cảm thấy đau khổ vì không được yêu thương. ENFJ rất nhạy cảm, nếu con cái họ đi quá xa, họ sẽ thực sự thấy bất lực.</p>
+                <h3>Tất cả những gì trẻ trở thành, là nhờ vào bậc sinh thành ENFJ</h3>
+                    <p>May thay, các cuộc cãi vã giữa ENFJ và con cái họ rất ít xảy ra, ENFJ có một tài năng để hiểu và thông cảm cho người khác bất chấp mọi chuyện có tệ đến đâu, con cái họ rồi sẽ quên đi, những gì chúng nhớ là sự ấm áp, chăm sóc, tình yêu và sự khuyến khích mà chúng nhận được từ cha mẹ. Đứa trẻ sẽ lớn lên với cốt cách của cha mẹ chúng, và chúng sẽ sớm nhận ra điều này.</p>
+            <div class="panel-body">
+                <h2 id="6">Con đường sự nghiệp</h2>
+            </div>    
+                <p>Khi nói đến công việc, nhóm ENFJ sẽ tìm những việc họ thích làm nhất - giúp đỡ mọi người. May mắn cho họ, mọi người ai cũng thích được được giúp đỡ, và sẵn sàng trả cho dịch vụ đó...</p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Protagonist_ENFJ_career_path.png" />
+                <h3>Đừng lo nếu không ai nhận ra bạn, hãy cố trở nên xứng đáng được nhận ra</h3>
+                    <p>ENFJ thật sự quan tâm đến người khác, tiếp cận mọi người với sự nồng hậu thiết tha. Các nghề về tôn giáo, giảng dạy, tư vấn trong mọi lĩnh vực sẽ là nơi giúp họ học tập và trưởng thành. Thái độ, kèm với kỹ năng giao tiếp, trí tuệ cảm xúc khiến họ trở thành người hiểu được tấ cả mọi người, một kỹ năng rất cần thiết cho việc quản lý nhân sự, tổ chức sự kiện và chính trị gia. <br />Thêm vào đó, ENFJ với khả năng diễn đạt một cách sáng tạo và trung thực cho phép họ làm các công việc như đại diện thương hiệu, tư vấn quảng cáo, những nghề cần hiểu được mong muốn của khách hàng, và làm việc để thỏa mãn nhu cầu đó. Tuy nhiên, ta phải đảm bảo họ được làm việc với con người chứ không phải với các con số, phụ không phù hợp với vị trí quản lý doanh nghiệp - họ sẽ bị ám ảnh với những quyết định phải sa thải ai, hoặc những sản phẩm thất bị có thể làm hại đến sức khỏe của người khác. <br />Tính cách Trực quan - Intuitive (N) cũng đồng nghĩa với việc những công việc cần sự ứng biến khẩn cấp như cảnh sát, quân đội, bác sỹ cấp cứu, đều không phải là thế mạnh của họ. Những trường hợp cần sự tập trung khẩn cấp đều là công việc mà ENFJ không có khả năng đáp ứng.</p>
+                <h3>Luôn cần ghi nhớ...</h3>
+                    <p>ENFJ luôn ưu tiên công việc hướng về con người hoặc lý tưởng, ý nghĩ này định hướng cho mọi hành động của họ. Khi được đào tạo các kỹ năng cần thiết, họ cũng luôn ưu tiên cho các kỹ năng hỗ trợ dạng này. <blockquote>Ngay trong quá trình làm việc, ENFJ luôn cần biết là khi đạt được kết quả của việc này, có ai cám ơn họ vì sự giúp đỡ hay không...</blockquote>Những nghề như cảnh sát hoặc quân đội chỉ là một gánh nặng tâm trí cho ENFJ, nhất là khi họ đến hiện trường vụ án quá muộn, chứng kiến và hiểu mình không thể làm gì để giúp đỡ nạn nhân. ENFJ nên theo hướng chính trị hoặc quản lý, vì họ hiểu mỗi giây phút bỏ công sức ra có thể giúp họ hoàn thành thứ gì đó to lớn hơn rất nhiều.</p>
+            <div class="panel-body">
+                <h2 id="7">Thói quen làm việc</h2>
+            </div>    
+                <p>Nhóm ENFJ thông minh, gần gũi, lý tưởng, có nhân cách, sáng tạo, hòa đồng... Với sự nâng đỡ thích hợp, họ sẽ lên nhanh như diều gặp gió. Hơn thế nữa, họ có sức lôi cuốn khó cưỡng lại, những đức tính này giúp họ thành công khi làm việc với mọi người xung quanh.</p>
+                <h3>Khi còn thuộc cấp</h3>
+                    <p>Khi là nhân viên, ENFJ nhanh chóng gây chú ý với lãnh đạo. Học tập nhanh, làm nhiều việc cùng lúc. ENFJ chăm chỉ, đáng tin cậy và sẵn sàng giúp đỡ người khác - đây cũng là con dao hai lưỡi, khi có một số lãnh đạo lợi dụng điều này để ra quá nhiều công việc để bắt họ làm thêm, ENFJ luôn tránh cãi cọ, và họ sẽ chấp nhận việc này như thể chỉ để có thêm một điểm cộng.</p>
+                    <img src="https://www.16personalities.com/images/types/scenes/diplomats_Protagonist_ENFJ_workplace_habits.png" />
+                <h3>ENFJ đồng nghiệp</h3>
+                    <p>Ở vị trí đồng nghiệp, ENFJ hỗ trợ và hợp tác với những đồng nghiệp khác, làm cho ai cũng cảm thấy sự thoải mái được nói ra suy nghĩ và cảm xúc của mình, cùng làm việc với nhau trong trạng thái cùng có lợi để đạt được mục đích là hoàn thành công việc. Sự cởi mở của ENFJ tạo điều kiện cho họ dễ dàng kết nối với mọi đồng nghiệp, nhưng đồng hời cũng khiến họ dễ bị nhờ vả. Là người thuộc nhóm Ngoại giao, ENFJ quá nhạy cảm với những nhu cầu của người khác, và nhiệm vụ xã hội của họ thường là giúp đỡ các khó khăn của đồng nghiệp xung quanh.</p>
+                <h3>Lúc làm lãnh đạo...</h3>
+                    <p>Là tiếng gọi trong tim của họ, ENFJ khi làm lãnh đạo sẽ sử dụng cac kỹ năng trời phú cho việc thúc đẩy cả nhóm tiến lên, trong khi các thành viên trong nhóm được truyền cảm hứng tiến lên phía trước. Có đôi lúc họ chi phối người khác quá nhiều, nhưng đích đến cuối cùng của ENFJ vẫn là làm sao để công việc hoàn thành trôi chảy, trong khi tất cả mọi người đều hài lòng với vị trí của họ, và một kết quả công việc tất cả cùng cố gắng hoàn tất.</p>
+            <div class="panel-body">
+                <h2 id="8">Tổng kết</h2>
+            </div>
+                <p>Rất ít nhóm tính cách có sự lôi cuốn và vầng hào quang của ENFJ, tầm nhìn và lý tưởng giúp họ vượt qua rất nhiều thử thách, và họ tỏa sáng cho người khác noi theo. Trí tưởng tượng của ENFJ có giá trị trong rất nhiều lĩnh vực, trong đó có cả sự phát triển cá nhân của họ.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Protagonist_ENFJ_conclusion.png" />
+        </div>
+    </div>
+{% endblock %}

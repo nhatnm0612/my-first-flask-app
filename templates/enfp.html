@@ -1,0 +1,112 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    <title>ENFP</title>
+{% endblock %}
+
+{% block style %}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/resultpages.css') }}">
+{% endblock %}
+
+{% block body %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#1">Giới thiệu</a></li>
+            <li><a href="#2">Điểm mạnh, Điểm yếu</a></li>
+            <li><a href="#3">Tình yêu</a></li>
+            <li><a href="#4">Tình bạn</a></li>
+            <li><a href="#5">Tình cảm gia đình</a></li>
+            <li><a href="#6">Con đường sự nghiệp</a></li>
+            <li><a href="#7">Thói quen làm việc</a></li>
+            <li><a href="#8">Tổng kết</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="navigation" class="col-lg-2 col-md-3 col-sm-3">
+                <!--for something else-->
+            </div>
+            <div id="main" class="col-lg-10 col-md-9 col-sm-9 fill">
+            <img class="img-responsive" src="https://storage.googleapis.com/neris/public/images/headers/enfp-personality-type-header.png" />
+            <div class="panel-heading">
+                <h1>Nhóm ENFP (Nhà thám hiểm)</h1>
+            </div>
+                <p>Là nhóm người yêu thích tự do, sáng tạo và nhiệt tình, ENFP luôn lạc quan yêu đời.</p>
+            <div class="panel-body">
+                <h2 id="1">Giới thiệu</h2>
+            </div>
+            <p><blockquote>Bạn làm gì để sống không quan trọng, vấn đề là bạn có thể sống chết vì điều gì - và sẵn sàng theo đuổi nó đến đâu. Bạn bao nhiêu tuổi không quan trọng, tôi muốn biết bạn có sẵn lòng trông như kẻ ngốc - vì tình yêu - vì ước mơ - vì bạn đang sống.</blockquote>ENFP là một linh hồn tự do. Họ là trung tâm trong các buổi tiệc, nhưng không như nhóm Khám phá, họ thích các mối quan hệ xã hội hơn. Cuốn hút, độc lập, nhiều năng lượng và giàu lòng nhiệt thành, nhóm này chiếm 7% dân số và có thể nhận ra ở bất cứ đâu.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Campaigner_ENFP_introduction.png" />
+                <h3>Chỉ một ý tưởng có thể thay đổi cả thế giới</h3>
+                    <p>ENFP, cũng giống như các nhóm Ngoại giao khác, được định hình bởi tính cách Trực quan - Intuitive (I), giúp cho họ luôn tìm được cách làm sáng tạo cùng với sự tò mò và nhiệt tình khám phá. Họ coi xã hội là một trò chơi ghép hình khổng lồ với các miếng ghép kết nối với nhau - không giống như nhóm Phân tích, họ không coi cuộc sống là một hệ thống máy móc, ENFP nhìn xuyên qua bức màn cảm xúc và sự bí ẩn từ mỗi cá nhân, và tìm kiếm một ý nghĩa cao siêu hơn. <blockquote>ENFP luôn tự lập, và họ yêu tự do hơn tất cả mọi thứ trên đời</blockquote>Các nhóm tính cách khác thường thấy cá tính của ENFP khó cưỡng lại đươc, và khi họ tìm thấy một nguyên do khơi gợi trí tưởng tượng của mình,, ENFP sẽ dốc toàn lực để đựa mình vào vị trí trung tâm, được mọi người ngưỡng mộ như một người dẫn đường hay là một hiện tượng - tuy nhiên đây thường không phải vị trí mà một linh hồn tự do như ENFP khao khát. Họ ghét những công việc nhàm chán, những nhiệm vụ có sẵn cấu trúc mà một người dẫn đường cần phải làm. ENFP có thể rất nhanh đi lên vị trí trung tâm, nhưng cũng thoát ra ngoài rất nhanh, họ đơn giản không thể chịu được những việc nhàm chán.</p>
+                <h3>Đừng đánh mất "sự điên rồ"</h3>
+                    <p>May thay, ENFP biết cách nghỉ ngơi, họ làm hết sức, chơi hết mình. Là một tính cách tương đối lai tạp giúp họ hiểu được mọi người xung quanh. Họ luôn tin rằng tất cả mọi người nên dành thời gian tìm hiểu mọi người xung quanh, và cuộc sống sẽ vì thế đẹp hơn. <br />ENFP cần cẩn thận, nếu họ phụ thuộc quá nhiều vào tính trực quan, suy nghĩ mọi thứ theo chiều hướng phức tạp hóa, họ có thể bỏ qua một vài điểm mấu chốt đến từ những chuyện giản đơn. ENFP sống rất tình cảm, nếu làm tổn thương ai đó, điều này sẽ dằn vặt họ cả đêm. <br />ENFP dành rất nhiều thời gian tìm hiểu mọi người xung quanh, từ ý tưởng đến cảm xúc, để tìm một người bạn tâm giao. Khi họ tìm ra người này, tình cảm sẽ nảy nở và tạo ra một kết cục tốt đẹp.</p>
+            <div class="panel-body">
+                <h2 id="2">Điểm mạnh, Điểm yếu</h2>
+            </div>
+                <h3>Điểm mạnh:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/diplomats_Campaigner_ENFP_strengths.png" />
+                    <ul><li>Tò mò</li> <li>Cảm thông</li> <li>Tràn đầy nhiệt huyết</li> <li>Giỏi giao tiếp</li> <li>Biết cách xả hơi</li> <li>Rất thân thiện</li></ul>
+                <h3>Điểm yếu:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/diplomats_Campaigner_ENFP_weaknesses.png" />
+                    <ul><li>Không có các kỹ năng thực tế</li> <li>Khó tập trung</li> <li>Suy nghĩ quá nhiều</li> <li>Dễ stress</li> <li>Quá tình cảm</li> <li>Dễ mắc lỗi</li></ul>
+            <div class="panel-body">
+                <h2 id="3">Tình yêu</h2>
+            </div>
+            <p>Trong chuyện tình cảm, khó có ai mong mỏi được chia sẻ nhiều hơn ENFP. Với nhóm người này, tình yêu là một quá trình tràn đầy vui tươi giúp phát triển khả năng tìm tòi cùng trí tưởng tượng, một cơ hội giúp họ kết nối với một tâm hồn khác. ENFP rất thật lòng trong chuyện tình cảm, và họ cũng không ngại ngần hy sinh vì người họ yêu thương. <blockquote>ENFP có một sự cuốn hút khó cưỡng, họ ấm áp, nhiệt tình, và luôn vui vẻ.</blockquote>Trong giai đoạn hẹn hò, ENFP có thể sẽ bị bảo rằng họ cần tiếp cận một cách có quy tắc hơn, họ sẽ luôn thể hiện một tình yêu cháy bỏng, và họ sẽ làm tất cả mọi chuyện để có một cuộc tình bền chặt...</p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Campaigner_ENFP_romantic_relationships.png" />
+                <h3>Họ không thể sống thiếu ngọn lửa trong tim</h3>
+                    <p>Yêu xa thường phổ biến với nhóm người này, họ coi khoảng cách vật lý chỉ là một khái niệm, không thể nào so sánh được với một thứ nhiệm màu như tình yêu. Việc này chỉ càng làm cho họ có cơ hội khiến nửa kia ngạc nhiên, khi họ vượt qua quãng đường ngàn dặm chỉ cùng với trái tim rực cháy. <!--vầng, đọc xong đoạn này thấy mình ngôn tình vê lù-->Việc này vẫn là một bí ẩn của ENFP, giàu tình cảm và sống lý tưởng, hai chỗ dựa khiến họ giữ lửa hạnh phúc. <br />ENFP cũng thể hiện tình yêu qua chuyện tình dục, khám phá giới hạn vật lý của bản thân với trí tưởng tượng và đam mê, họ xem việc hoạt động tình dục như một cách giúp hai người hiểu nhau hơn, chia sẻ tình yêu và hạnh phúc. Họ sẵn sàng chung chăn gối với người yêu, ngay cả trong giai đoạn bắt đầu. Họ khá lý tưởng hóa việc này, tin rằng việc gắn kết xác thịt là một phần của tình yêu sâu đậm, và không nên bất cẩn làm việc đó. Sự lý tưởng hóa này xuất phát từ sự nhạy cảm của họ, và ENFP cũng rất tôn trọng những phản hồi đúng lúc. <br />ENFP luôn tìm tòi các ý tưởng mới lạ, cải thiện tình cảm hiện tại, tưởng tượng về tương lai trước mắt - trong tình yêu, họ thường nghĩ về một người tình hoàn hảo hơn là một người yêu hiện tại có khả năng không phải, và sự tự nhiên của họ hiến họ có tập trung hơn vào một đám cưới hay những mối tình bền lâu. Nếu nửa kia không có khả năng chuyển hướng nguồn năng lượng và sự nhiệt tình này, ENFP sẽ luông cảm thấy buồn và không được chia sẻ.</p>
+                <h3>Đừng nghĩ bạn hiểu hết được họ</h3>
+                    <p>ENFP chơi tất tay trong một cuộc tình, và nếu họ thua trắng tay, họ sẽ luôn suy nghĩ về câu hỏi tại sao mọi chuyện lại xảy ra như vậy hay sẽ thế nào nếu họ làm khác đi... nếu không được lôi ra khỏi vũng lầy đó, hai câu hỏi này sẽ nghiền nát trái tim ENFP và khiến họ chìm sâu vào khủng hoảng. Điều ENFP (cũng như tất cả mọi người) cần nhớ là, tình cảm có thể đổi thay, đừng nghĩ nó luôn luôn bất biến. <br />Đừng nhìn thấy ENFP tự nhiên, vô âu vô lo mà nghĩ họ không có chiều sâu, ngược lại, họ rất sâu sắc, và tất cả đều xuất phát từ tình yêu họ dành cho thế giới xung quanh.</p>
+            <div class="panel-body">
+                <h2 id="4">Tình bạn</h2>
+            </div>
+                <p>ENFP là người bạn luôn giúp đỡ và sẻ chia, sẵn sàng nói ra các ý tưởng và cùng thực hiện chúng, tư duy cởi mở, hiểu cảm nghĩ của người khác. Sự ấm áp này khiến cho mọi người bị hướng về phía ENFP, kết quả là họ có tương đối nhiều bạn. <blockquote>Giống như các tình cảm khác, ENFP coi tình bạn là một cơ hội giúp họ có thể trải nghiệm từ một góc nhìn khác, và mong mỏi xây dựng một tình bạn bền lâu.</blockquote></p>
+                <h3>Kết bạn như là một cuộc thám hiểm thú vị</h3>
+                    <p>Những người hướng ngoại thường thích giao du với nhóm này, tuy thế, ENFP lại bỏ thời gian và công sức ra tìm hiểu những nhóm tính cách trái ngược. Khả năng giao tiếp và kết nối với bạn bè cùng cới sự nhiệt thành sẵn có khiến họ rất tự tin, bị thu hút bởi sự kỳ bí của các nhóm đối lập, dặc biệt là những người có tính cách Trực quan Hướng nội (IN), ENFP sẽ cố gắng chạy theo làm bạn với họ dài dài. Những nhóm người này có thể không bao giờ cần đến sự hiện diện của ENFP, nhưng họ vẫn rất quý trọng công sức mà nhóm này đã bỏ ra chỉ để làm bạn với họ. <br />Tuy nhiên, sự kỳ vọng của ENFP cũng là con dao hai lưỡi, họ quá lý tưởng hóa người bạn kia, luôn mong mỏi họ là một nguồn ý tưởng và kinh nghiệm không bao giờ cạn. ENFP dồn hết tất cả vào tình bạn, và sẽ là một điều kinh ngạc với họ là bạn của họ không phải viên kim cương hoàn hảo như họ vẫn nghĩ, và việc đó khiến họ cực kỳ thất vọng.</p>
+                    <img src="https://www.16personalities.com/images/types/scenes/diplomats_Campaigner_ENFP_friendships.png" />
+                    <p>ENFP có xu hướng lấn sâu vào cuộc sống của người  khác, chăm sóc và hỗ trợ họ, trong khi quên đi chính bản thân mình. Kể cả kề tài chính, thời gian, sức lục hay cảm xúc, họ thường cho đi nhiều hơn nhận lại. Sự mất cân bằng này thường không kéo dài lâu, vì dường như một bên cho đi quá nhiều thường kéo theo sự nhượng bộ của cả hai phía.</p>
+                <h3>Khiến cuộc sống trở thành điều tuyệt vời</h3>
+                    <p>Khi có những người bạn từ đủ kiểu tính cách, ENFP nhận ra mỗi người thể hiện bản thân theo một cách khác nhau. Sự nhạy cảm của nhóm này khiến cho họ dễ bị tổn thương trước những câu nói của những nhóm có cá tính mạnh như Suy luận - Thinking (T) hay Phán xét - Judging (J), nhưng họ vẫn quý trọng tình bạn đó, suy cho cùng, cuộc sống là muôn màu muôn vẻ, và ENFP luôn có dòng máu thám hiểm chảy trong người.</p>
+            <div class="panel-body">
+                <h2 id="5">Tình cảm gia đình</h2>
+            </div>
+                <p>Nếu có bất kỳ điều gì khiến ENFP trở thành bậc phụ huynh tuyệt vời, điều đó là họ luôn ngạc nhiên với mọi thứ mới mẻ và đẹp đẽ, và họ sẽ truyền cảm hứng này cho con cái mình. Suốt thời gian bên con, ENFP tạo ra một sự kết hợp giữa tình yêu và sự giúp đỡ vô bờ bến, và một môi trường cởi mở cho tự do và sáng tạo. Điều này không có nghĩa là họ bỏ mặc trẻ tự suy nghĩ mà không cần chỉ dẫn, mà là họ muốn chia sẻ cách nhìn với con mình, trong một thế giới không giới hạn. <br />ENFP vừa nồng ấm vừa ham vui, và họ muốn thấy con họ thích thú trong việc trải nghiệm thế giới xung quanh. ENFP thường khuyến khích con vừa học vừa chơi với những hoạt động và bài học bên lề.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Campaigner_ENFP_parenthood.png" />
+                <p><blockquote>ENFP sẽ thay đổi đồ chơi cho trẻ khi chúng thay đổi thị hiếu, bỏ hết búp bê hay khủng long khi trẻ chuyển sang thích biển, và lại bỏ hết cá tôm khi khẩu vị trẻ đổi sang nghiên cứu thiên văn.</blockquote>Trong khi trẻ có thể cần một sự hướng dẫn, ENFP lại luôn muốn chúng tự khám phá những giới hạn bản thân. Có trong người tố chất cởi mở và đồng cảm, nhóm này không thể hiện quyền uy của cha mẹ, mà muốn trở thành bạn chơi cùng con. Nhờ tố chất bẩm sinh phát hiện sự không hài lòng, ENFP luôn hiểu được các vấn đề của con cái họ.</p>
+                <h3>Hãy bay xa nhé!</h3>
+                    <p>Khi trẻ tiến đến giai đoạn phát triển cá tính, tất cả sự quan tâm chăm sóc này bắt đầu làm phiền chúng, chúng muốn một không gian riêng tư. Đây có lẽ là một thử thách với ENFP - họ nhạy cảm, vả thường dồn tất cả tình cảm vào những người họ quan tâm. Khi trẻ bắt đầu rút lui vào trong kén, chúng có thể để lại một bí mật không có lời giải đáp cho cha mẹ chúng. Hãy yên tâm, cách nuôi dạy của ENFP thường tạo ra những con người độc lập, sáng tạo và tươi vui. Chúng dám đối mặt với mọi thứ trên đời, vì chúng luôn biết rằng ngoài bản thân mình, chúng còn có bố mẹ luôn bên cạnh giúp đỡ.</p>
+            <div class="panel-body">
+                <h2 id="6">Con đường sự nghiệp</h2>
+            </div>
+                <p>Có cả một thế giới rộng lớn ngoài kia, ENFP bị choáng ngợp trước những lựa chọn, cả trong lĩnh vực họ dã thành thạo, cũng như trong số lĩnh vực còn lại. ENFP sẵn sàng khám phá một thế giới rộng lớn và tươi đẹp hơn bất cứ ai, điều này khiến họ nổi bật. <blockquote>Nếu có một thử thách cho ENFP trong việc chọn nghề, đó không phải là vì họ thiếu năng lực hay thiếu lựa chọn, chỉ là có quá nhiều thứ rất ngầu cho họ lựa chọn.</blockquote></p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Campaigner_ENFP_career_path.png" />
+                <h3>Một cánh cửa rộng mở có thể là một phút giây tuyệt vời</h3>
+                    <p>Khả năng chủ chốt của ENFP là kỹ năng về con người, điều này càng ngày càng trở nên quan trọng. Ngay cả trong các nghề chỉ có nhóm Phân tích như kỹ sư, dự báo hệ thống hay khoa học, ENFP với khả năng kết nối và truyền đạt tuyệt vời khiến ta hiểu dù họ làm việc một mình, họ có khả năng làm việc với người khác, nhìn từ góc nhìn người khác và đưa ra một hướng đi mới cho cả dự án. Các công việc trong tương lai rất cần việc kết nối tri thức từ nhiều ngành nghề, và có ai thích hợp hơn để làm việc này chứ? <br />Trong khi nhóm Suy luận - Thinking (T) có thế mạnh đưa logic vào hệ thống và máy móc, ENFP có thế mạnh tương tự với con người và các mạng lưới, sử dụng kỹ năng xã hội siêu việt để tìm ra nhu cầu của người khác. Điều này khiến họ có mặt trong các ngành nghề như tâm lý học, tư vấn hay đào tạo chính trị, ngoại giao hay làm thám tử - những nghề có chung đặc điểm: phát triển, chuyển hướng, đưa ra những góc nhìn và cách tiếp cận tiên tiến hơn.</p>
+                <h3>Quá nhiều sếp, quá ít nhân viên</h3>
+                    <p>ENFP không thể phát triển ở các ngành như quân đội hay công an, họ đòi đặt câu hỏi và tìm hướng đi mới hơn, và nếu điều này không được đáp ứng, họ sẽ không giữ được bình tĩnh. Công việc lặp đi lặp lại, dễ tiên đoán, chán... những công việc mà nhóm Thực thi có thể làm, đều không dành cho nhóm tính cách này, họ cần một công việc nơi họ có thể thúc đẩy các giới hạn và khám phá các ý tưởng, và họ cũng chỉ nên đi theo con đường đó. <br />Còn rất nhiều công việc cần họ - viết văn, làm báo, đóng phim, phát thanh viên,... - tất cả cho ENFP một cơ hội khám phá những điều mới mẻ mỗi ngày.</p>
+            <div class="panel-body">
+                <h2 id="7">Thói quen làm việc</h2>
+            </div>
+                <p>Có hai nhu cầu cơ bản của ENFP trong công việc: được khám phá những ý tưởng mới, và được làm việc đó cùng với những người có cùng nhiệt huyết. Đây là nhu cầu xuyên suốt mọi tầng lớp trong công ty, mặc dù như những nhóm Ngoại giao khác, ENFP không thích các kết cấu phân tầng. ENFP được trời phú cho sự ấm áp, sáng tạo và cởi mở, khiến họ trở thành một người chuyên lắng nghe. Nếu các lãnh đạo hiểu điều này, họ sẽ luôn có thể để ENFP làm những công việc cần sáng tạo hay tạo môi trường năng động trong công ty.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Campaigner_ENFP_workplace_habits.png" />
+                <h3>Khi còn thuộc cấp</h3>
+                    <p>ENFP ghét sự quản lý thái quá, khiến họ không còn chỗ trống để hoàn thành công việc. Nếu bị quản lý kiểu này, họ sẽ sớm bị stress. <br />ENFP luôn thích khám phá những ý tưởng mới, học những điều mới, và ngay khi họ quen với một việc gì đó, sự hứng khởi này tan biến đi. Tuy nhiên nếu lãnh đạo có khả năng duy trì một bầu không khí "học tập" trong công việc, họ sẽ thấy ENFP rất cống hiến và trung thành.</p>
+                <h3>ENFP đồng cấp</h3>
+                    <p>ENFP có mối quan hệ đồng cấp tốt, đồng nghiệp không chỉ là đồng nghiệp, mà còn là bạn bè của ENFP. Họ chia sẻ, và vực tinh thần của đồng nghiệp. Ấm áp và lạc quan, ENFP luôn tìm một giải pháp tất cả cùng có lợi. <br />ENFP luôn lắng nghe các luồng tư tưởng mới với một sự hứng khởi. Khả năng thư giãn và luôn vui vẻ khiến họ trở thành tâm điểm ở bàn cafe, và họ dùng những kỹ năng này để trở thành trưởng nhóm, hiểu động cơ và liên kết cả nhóm lại với nhau.</p>
+                <h3>Lúc làm lãnh đạo...</h3>
+                    <p>ENFP không thích các cấu trúc phân tầng, việc này thể hiện rất rõ khi họ làm lãnh đạo - họ kết bạn với thuộc cấp, khơi gợi cảm hứng và làm việc cùng cả nhóm thay vì ra lệnh và trách móc. ENFP tin vào khái niệm động cơ tự nhiên, rằng mọi người hoàn thành công việc vì muốn khẳng định bản thân, chứ không phải tại thưởng phạt. <br />Không may, một số nhân viên lại thích kiểu quản lý chặt chẽ, và đây là một thử thách với ENFP, rằng đôi khi "cây gậy và củ cà rốt" là một chính sách cần thiết.</p>
+            <div class="panel-body">
+                <h2 id="8">Tổng kết</h2>
+            </div>
+                <p>Ít nhóm tính cách có sự sáng tạo và cá tính như ENFP. Được biết đến bởi sự nhiệt tình và lý tưởng, ENFP rất giỏi đối đầu với những chuyện bất ngờ trong cuộc sống và lan tỏa hạnh phúc cho những người xung quanh họ. Trí tưởng tượng của nhóm này được đánh giá cao trong rất nhiều lĩnh vực.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/diplomats_Campaigner_ENFP_conclusion.png" />
+        </div>
+    </div>
+{% endblock %}

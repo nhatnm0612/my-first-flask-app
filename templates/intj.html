@@ -1,0 +1,120 @@
+{% extends "layout.html"%}
+    
+{% block title %}
+    <title>INTJ</title>
+{% endblock %}
+
+{% block style %}
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/resultpages.css') }}">
+{% endblock %}
+
+{% block body %}
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="#1">Giới thiệu</a></li>
+            <li><a href="#2">Điểm mạnh, Điểm yếu</a></li>
+            <li><a href="3#">Cảm xúc</a></li>
+            <li><a href="#4">Tình yêu</a></li>
+            <li><a href="#5">Tình bạn</a></li>
+            <li><a href="#6">Tình cảm gia đình</a></li>
+            <li><a href="#7">Con đường sự nghiệp</a></li>
+            <li><a href="#8">Thói quen làm việc</a></li>
+            <li><a href="#9">Tổng kết</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-lg-2 col-md-3 col-sm-3">
+            <!--for something else-->
+        </div>
+        <div class="col-lg-10 col-md-9 col-sm-9 fill">
+            <img class="img-responsive" src="https://storage.googleapis.com/neris/public/images/headers/intj-personality-type-header.png" />
+            <div class="panel-heading">
+                <h1>Nhóm INTJ (Tổng công trình sư)</h1>
+            </div>
+            <p>Những người tư duy chiến lược và sáng tạo, với một kế hoạch cho tất cả mọi việc.</p>
+            <div class="panel-body">
+                <h2 id="1">Giới thiệu</h2>
+            </div>
+                <p>INTJ là nhóm người hiếm, chỉ chiếm khoảng 2%. INTJ là những người có khả năng suy nghĩ rất tốt, vừa mơ mộng nhưng cũng rất quyết đoán, vừa tham vọng nhưng lại sống xa lánh đám đông, rất tò mò, và INTJ luôn có một nguồn năng lượng vô tận.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_introduction.png" /> <p>Với sự thèm khát tri thức bẩm sinh, các INTJ thường bị coi là "mọt sách" khi còn nhỏ. INTJ rất tự tin khi chia sẻ kiến thức họ biết, nhưng vì tính cách Cảm giác - Intuitive (N) và Phán xét - Judging (J), họ thường thích lên các kế hoạchvà thực hiện nó hơn là việc trò chuyện về những thứ "vớ vẩn". <br />Luôn là một ẩn số với người xung quanh, INTJ luôn sống trong sự đối lập mà không ai hiểu được. Họ có thể vừa sống lý tưởng hóa một cách dại khờ, lại vừa thực dụng đến mức không ai nghĩ là nó cùng tồn tại trong một con người được.</p>
+                <h3>Luôn vững tâm</h3>
+                    <p>Ở INTJ luôn phát ra sự tự tin và một sự bí ẩn, cùng với khả năng cảm thụ tuyệt vời, những ý tưởng và khả năng tư duy logic giúp họ thay đổi mọi thứ cùng ý chí và nghị lực cá nhân. <br />Sự giới hạn của truyền thống là cái gai trong mắt của INTJ. Đối với họ, mọi thứ đều phải được suy xét và định nghĩa lại, và nếu họ tìm ra một lỗ hổng, INTJ thường một mình hành động theo lý trí, đôi khi thiếu tinh tế, và hầu như đều theo cách không "truyền thống".</p>
+                <h3>Luôn Đứng Một Mình</h3>
+                    <p>Xã hội bên ngoài dường như không phải là đối tượng của một INTJ. Vì những cuộc nói chuyện không có chiều sâu hay những câu nói dối xã giao là cái "vảy ngược" cho một người luôn khao khát được đào sâu vào sự thật. Đây cũng là lý do mà họ rời xa những nơi là trung tâm chú ý, để quay về với góc nhỏ của họ. <br />INTJ coi cuộc đời như một bàn cờ vua khổng lồ, nơi mọi thứ luôn chuyển động với các chiến thuật mới và các kế hoạch dự phòng. Điều này không có nghĩa là INTJ không có lương tâm, nhưng với những người thuộc nhóm Cảm xúc - Feeling (F), cách hành động của INTJ có vẻ như vậy. Chính vì lý do này, rất nhiều nhân vật phản diện (và gian hùng) trong truyện đều được mô phỏng theo tính cách của nhóm người này.</p>
+            <div class="panel-body">
+                <h2 id="2">Điểm mạnh, Điểm yếu</h2>
+            </div>    
+                <h3>Điểm mạnh:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_strengths.png" /> <ul><li>Cách suy nghĩ chiến thuật, nhanh và bất ngờ.</li> <li>Luôn tự tin.</li> <li>Độc lập và quyết đoán.</li> <li>Làm việc chăm chỉ.</li> <li>Tư duy thông thoáng.</li> <li>Giỏi hầu như tất cả mọi việc.</li></ul>
+                <h3>Điểm yếu:</h3>
+                    <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_weaknesses.png" /> <ul><li>Kiêu ngạo.</li> <li>Luôn phán xét.</li> <li>Hay phân tích.</li> <li>Căm thù những hệ thống với cấu trúc phân tầng.</li> <li>Tay mơ trong tình yêu.</li></ul>
+            <div class="panel-body">
+                <h2 id="3">Cảm xúc</h2>
+            </div>
+                <p>INTJ được biết đến với sự tự tin trong suy nghĩ và lúc ra quyết định, nhưng điều này che giấu một sự hỗn loạn bên trong - cảm xúc của họ. <br />Trong rất nhiều trường hợp, logic của một INTJ không chỉ là vũ khí mà còn là lá chắn bảo vệ cho cảm xúc của họ.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_emotions.png" />
+                <h3>Không thứ gì làm tôi sợ hãi</h3>
+                    <p>Kiểm soát cảm xúc bản thân là một thách thức mà tất cả INTJ trẻ tuổi đều phải trải qua. Suy cho cùng, nhóm người này không thể trở thành những thiên tài máu lạnh chỉ hy sinh cho lý tưởng của bản thân. INTJ trưởng thành biết cách kiểm soát cảm xúc bản thân. Họ vẫn không thích việc phơi bày chúng ra ở nơi công cộng, nhưng nhờ cảm xúc mà họ biết mình đang đi đúng hướng.</p>
+                <h3>Tự tin thay đổi</h3>
+                    <p>Sẽ có những trường hợp mà logic không thể phát huy sức mạnh của nó được, qua thời gian, INTJ sẽ hiểu ra rằng, logic không thể tách rời cảm xúc được.</p>		
+            <div class="panel-body">
+                <h2 id="4">Tình yêu</h2>
+            </div>
+                <p>INTJ làm mọi việc giống nhau: tính toán các bước đi và dự đoán kết quả. Trong tình yêu cũng vậy, thay vì điên cuồng lao vào nó, họ chia nhỏ quá trình ra thành nhiều bước tiến, và sau đó vạch kế hoạch để tiến tới từng mức một. <br />Trong một thế giới ảo được INTJ tưởng tượng ra, mọi việc đều hoàn hảo hơn đời thường. Chính việc mong muốn kiếm tìm một người hoàn hảo để bước vào thế giới ảo này khiến việc tìm kiếm bạn đời của họ trở thành thách thức lớn nhất trong cuộc sống.</p>
+                <h3>Mặt yếu</h3>
+                    <p>Tình cảm, truyền thống và cảm xúc chính là gót chân Achilles của một INTJ. Những hành động trong tình yêu đối với một INTJ là việc ngu ngốc, mà nó lại là những điều cơ bản nhất trong một mối quan hệ tình cảm. <br />Qua thời gian, INTJ dần bỏ qua ý kiến này. Nhưng những INTJ trẻ tuổi lại luôn coi nguyên nhân là do mọi người nằm dưới tầm trí tuệ của họ sau khi mọi chuyện đổ vỡ.</p>
+                <h3>Mặt mạnh</h3>
+                    <p>Điều kỳ lạ là sau khi từ bỏ việc tìm kiếm người tình hoàn hảo, INTJ quay lại với góc nhỏ của mình, mà đây lại là khi họ trở nên cuốn hút nhất, vì INTJ có những tố chất khiến họ giỏi gần như tất cả mọi việc. Việc mất thời gian vào chuyện tình yêu làm cho họ không thể tìm tòi và nghiên cứu được.</p> <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_romantic_relationships.png" />
+                    <p>Càng bên nhau lâu, bạn đời của INTJ càng nhận ra họ là một con người vừa nồng nhiệt vừa sáng tạo, vừa chia sẻ tất cả mà lại trao cho người kia tự do và sự tin tưởng. Trong khi INTJ vẫn không bao giờ bộc lộ hết cảm xúc thật, họ vẫn rất đáng tin mỗi khi bạn cần một quyết định nào đó. <blockquote>INTJ luôn tìm kiếm một mối quan hệ sâu sắc, và trí tuệ cùng khả năng logic của họ giúp người bạn đời luôn hài lòng, cả về vật chất lẫn tinh thần.</blockquote><br/ >INTJ trân trọng sự thật, các cuộc đối thoại thẳng thắn. Họ làm những gì họ cho là đúng, dù đôi khi rất lạnh lùng - Hãy tin rằng INTJ đã rất cân nhắc khi làm việc này, họ suy tư, cố gắng tìm hiểu vì sao mọi thứ lại trở nên như vậy, nhất là khi họ đã cố cứu vãn nó. Tuy nhiên, sự thật vẫn là INTJ rất tàn nhẫn khi tình cảm đã hết. <br />Thách thức ở đây là tìm cho được một người cũng có cùng suy nghĩ như vây, vì nhóm Cảm giác - Intuitive (N) rất hiếm. Tìm kiếm một người với một hoặc hai tính cách đối lập, như nhóm Hướng ngoại - Extraversion (E), Cảm giác - Feeling (F) hay Khám phá -  Prospecting (P) có thể khiến chuyện tình cảm phát triển tốt đẹp hơn.</p>
+            <div class="panel-body">
+                <h2 id="5">Tình bạn</h2>
+            </div>
+                <p>Thường thì INTJ thành công trong việc kết bạn hơn là với tình yêu, tuy nhiên đây cũng vẫn là một mối quan hệ dựa trên tình cảm. Khoảng cách trí tuệ giữa một INTJ và mọi người xung quanh được lấp đầy theo hai hướng, hoặc làm họ khó hiểu, hoặc làm họ chẳng buồn hiểu. Bạn của INTJ thường có tính Cảm giác - Intuitive (N).</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_friendships.png" />
+                <h3>Đừng nên mất thời gian</h3>
+                    <p>INTJ luôn có một bộ lọc, họ tìm kiếm bạn tâm giao có cùng khả năng suy nghĩ, điều này khiến họ gần như ngạo mạn. Họ thường có khuynh hướng chơi thân với một số ít người hơn là quảng giao, khi bạn làm họ cảm thấy mất tự do, họ sẵn sàng rời xa bạn. INTJ không có khả năng xoa dịu nỗi đau tinh thần, họ thường chèn ép cảm xúc chính mình bằng lý trí, và cũng muốn bạn bè của mình sống y như vậy. <br />Khác với tình huống thông thường, INTJ rất ít quyết đoán nếu vấn đề liên quan đến cảm xúc.</p>
+                <h3>Họ vẫn rất tôn trọng tình bạn</h3>
+                    <p>Xung quanh bạn bè, INTJ luôn thoải mái. Họ có xu hướng đùa ác, nhưng ai chơi với họ đều cảm thấy điều này khá buồn cười. Bạn bè của INTJ thường thuộc về nhóm Phân tích hoặc Ngoại giao, vì tính Cảm quan - Observant (S). <br />Không dễ trở thành bạn của INTJ, tuy nhiên tình bạn với nhóm người này thường rất lâu bền.</p>
+            <div class="panel-body">
+                <h2 id="6">Tình cảm gia đình</h2>
+            </div>    
+                <p>Việc làm cha làm mẹ với INTJ là một điều khó khăn, vì họ không hề có một khái niệm nào về cảm xúc, trong khi lại không thể rời bỏ đối tượng bên kia. May mắn thay, INTJ có khả năng định hướng dài hạn, nhất là khi công việc đó có ý nghĩa, và trí tuệ của họ được sử dụng rất tốt vì mục đích này.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_parenthood.png" />
+                <h3>Hi vọng rằng sự khôn ngoan luôn tỉ lệ với quyền lực...</h3>
+                    <p>INTJ không dạy cho trẻ con thế giới ngoài kia đầy màu hồng, họ rất thực tế, đôi khi quá thực tế. Điều này khác hẳn với những gì con trẻ cần, nhất là trong những năm đầu đời, INTJ có thể vô tình đè bẹp tuổi thơ của con trẻ, hoặc là quá lạnh lùng thờ ơ. <br />Thậm chí ngay cả những đứa trẻ ít nhạy cảm cũng vẫn cần hỗ trợ về mặt cảm xúc, nhất là trong thời kỳ dậy thì. INTJ, thậm chí còn tệ hơn cả các nhóm Phân tích khác, vốn đã khó kiểm soát cảm xúc của bản thân, đừng nói là của người khác. Thay vì một sự hỗ trợ tinh thần, họ thường đưa ra giải pháp, vì đây vốn là cách họ đương đầu với tất cả mọi chuyện. <br />Các bậc phụ huynh INTJ thường không bảo con phải làm gì, thay vào đó họ khuyến khích con sử dụng chính suy nghĩ của mình để đưa ra quyết định. INTJ dạy con khá tốt, họ để con cái tự do với cuộc sống và có sự phiêu lưu riêng. Điều này không có nghĩa họ dễ dãi, họ muốn con của họ tự có trách nhiệm, và tự học lấy những giá trị cốt lõi nhất. Khi cần, INTJ luôn cởi mở và trung thực với con cái, vì họ tin rằng biết sự thật tốt hơn là không hiểu, hay tệ hơn, hiểu sai.</p>
+                <h3>... Và nó dạy ta rằng, càng ít sử dụng quyền lực bao nhiêu, càng tốt bấy nhiêu.</h3>
+                    <p>INTJ sẽ cảm thấy được tôn trọng nếu con họ hiểu được cách tiếp cận này, suy cho cùng, họ vẫn là những người thày tuyệt vời. Họ muốn con họ tự tìm ra bản ngã, tự học cách giải quyết mọi rắc rối, và ngày càng tự tin hơn. Mục tiêu cuối cùng của INTJ là con cái của họ có khả năng đương đầu với mọi việc. </br>INTJ muốn con cái họ bước theo con đường của mình, họ hiểu họ không thể bao bọc đứa trẻ mãi mãi. Nhưng khi trang bị cho trẻ đủ kỹ năng, chúng sẽ vượt qua mọi khó khăn trong cuộc sống.</p>
+            <div class="panel-body">
+                <h2 id="7">Con đường sự nghiệp</h2>
+            </div>    
+                <p>Năng lực chuyên môn luôn là thứ INTJ làm tốt nhất. Họ có khả năng tiêu hóa mớ lý thuyết và nguyên tắc phức tạp nhất, chuyển chúng thành chiến lược rõ ràng và khả năng hiện thực hóa chiến lược tốt hơn bất kỳ nhóm tính cách nào khác. </br>Khó khăn lớn nhất trong công việc của INTJ là tìm ra cách khiến người khác lắng nghe những ý kiến của mình. Trong những năm đầu làm việc, họ thường phải chịu đựng sự chối từ của lãnh đạo cho tới khi họ phát triển kỹ năng giao tiếp với cấp trên. </br><blockquote>INTJ thường tìm ra cách tự động hóa những khâu nhàm chán trong công việc, theo thời gian, sự tự tin và khả năng cống hiến sẽ giúp họ mở ra cánh của tự do mà họ luôn khao khát.</blockquote></p>
+                <h3>Cá tính</h3>
+                    <p>INTJ thích hợp làm việc một mình, hoặc trong những nhóm nhỏ hơn là làm việc đòi hỏi báo cáo liên tục hoặc trong nhóm lớn. Chính vì thế, họ thường thích hợp cho những nghề như kỹ sư phần mềm, kỹ sư cơ khí, luật sư hay các chuyên viên tự do.</p>
+                    <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_career_path.png" />
+                    <p>INTJ luôn có thái độ cống hiến không biết mệt mỏi, họ khinh thường những kẻ đi lên bằng mồm hay bằng đầu gối. Họ có tiêu chuẩn rất khắt khe, chỉ cần thấy người khác không có năng lực, họ lập tức xem thường người đó. INTJ đánh giá cao sáng kiến cá nhân, sự quyết tâm, sự cống hiến của người khác, và tin rằng mọi người nên hoàn thành tốt nhất công việc của họ.</p>
+                <h3>Những kẻ trầm lặng</h3>
+                    <p>Càng tiến xa trong sự nghiệp, các thử thách với INTJ càng phức tạp hơn. Họ không quan tâm tới sự ngưỡng mộ của xã hội, mà thường hợp với những vị trí đứng sau cánh gà như quản lý dự án, kỹ sư hệ thống, chiến lược kinh doanh, phân tích hệ thống, chuyên gia quân sự. <br />Tuy nhiên trên thực tế, các năng lực của INTJ khiến họ thành công trong bất kỳ nghề nghiệp nào đòi hỏi sự suy nghĩ.</p>
+            <div class="panel-body">
+                <h2 id="8">Thói quen làm việc</h2>
+            </div>    
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_workplace_habits.png" />
+                <p>Hơn tất thảy, INTJ thích giải quyết các công việc trí não với can thiệp tối thiểu từ bên ngoài. Những việc như xây dựng lòng tin, các cuộc gặp gỡ,... tất cả chỉ làm cho họ thấy thừa thãi. Tất cả những gì họ cần là cấp dưới, đồng cấp hay cấp trên phải có chung một tiêu chuẩn cao nhất cho sản phẩm của họ. <br />Trên lý thuyết điều này có thể khiến họ trở thành những nhân viên gương mẫu, tuy nhiên sẽ rất khó khăn nếu những nhóm tính cách trái ngược muốn làm việc cùng INTJ. Họ có xu hướng thích làm việc với một nhóm đồng nhất về quan điểm, và lúc đó, ta sẽ biết được giá trị của họ.</p>
+                <h3>Khi còn là thuộc cấp</h3>
+                    <p>INTJ luôn độc lập, điều này khiến họ rất ghét những vị trí không có tự do. Khi có tự do của mình, họ hoàn thành công việc không phải vì muốn thăng cấp, mà vì họ muốn vậy. INTJ thích các lãnh đạo lỗi lạc, người đưa ra khen - chê hợp lý. <br />Sự tin tưởng và tôn trọng lãnh đạo của họ xuất phát từ hình tượng này, INTJ im lặng khi họ không còn tôn trọng hay tệ hơn là thách thức lại cấp trên.</p>
+                <h3>INTJ đồng cấp</h3>
+                    <p>Họ thích làm việc độc lập, lảng tránh những nhóm buôn dưa lê hay tránh việc bị những người kém thông minh hơn kéo lùi lại. Họ thích được thử thách, tìm ra cách làm mới cho những việc mà chỉ có họ mới nghĩ ra cách giải quyết. <br />INTJ là những nhà phân tích lỗi lạc, và thích được làm việc với nhóm nhỏ, nơi mọi người tin tưởng và tôn trọng tri thức của nhau. Nhưng ta thường xuyên thấy họ hoạt động độc lập, một thành công trong lúc này khiến họ cảm giác vui sướng gấp bội.</p>
+                <h3>Làm việc quản lý...</h3>
+                    <p>Thế giới sẽ tốt đẹp hơn nếu họ làm quản lý, vì họ được sinh ra cho vị trí này. INTJ đánh giá cao sự đổi mới, hiệu quả hơn bất kỳ chất lượng nào khác. Họ sẵn sàng gạt đi truyền thống, thậm chí cả niềm tin của họ nếu như ý tưởng mới được lập luận một cách chặt chẽ nhất. INTJ tạo ra sự tự do trong môi trường làm việc, lôi kéo và khiến cấp dưới có cảm giác được tôn trọng, trách nhiệm, và có tầm nhìn dài hạn. <br />Tuy nhiên sự tự do này không phải là ban phát, bạn phải nỗ lực để có nó. Những cá nhân không có khả năng theo kịp những tiêu chuẩn khắt khe của INTJ sẽ "lãnh đủ". Tính hiệu quả và kết quả là tất cả đối với họ, tất cả những thứ khác sẽ bị hủy diệt không thương tiếc. Đừng cố mua chuộc một lãnh đạo INTJ, khi nói đến công việc, đối với họ không có chuyện tình cảm.</p>
+            <div class="panel-body">
+                <h2 id="9">Tổng kết</h2>
+            </div>
+                <p>Rất ít tính cách gây tranh cãi như INTJ, trí tuệ vượt trội cho phép họ vượt qua rất nhiều trở ngại, INTJ có khả năng vạch kế hoạch cho mọi thứ, ngay cả thay đổi bản thân. <br />Tuy nhiên, INTJ vẫn có thể vấp ngã trong những trường hợp trí tuệ không lên ngôi, từ bạn bè, yêu đương, cho tới việc leo cao trong sự nghiệp, hay chấp nhận những việc không thể tiên đoán được, INTJ vẫn cần phải bổ sung các tính cách của bản thân để hoàn thiện chính mình.</p>
+                <img src="https://www.16personalities.com/images/types/scenes/analysts_Architect_INTJ_conclusion.png" />
+        </div>
+    </div>
+{% endblock %}
